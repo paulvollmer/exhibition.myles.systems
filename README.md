@@ -31,10 +31,9 @@ myles.systems collection of design-assets.
 
 ![](https://img.shields.io/badge/status-ready to use!-green.png)
 
-## Copyright and License
+## Copyright and License for HTML code:
 
-Copyright 2015-2016 myles.systems,
-Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
+Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the Apache 2.0 license.
 
 
 
