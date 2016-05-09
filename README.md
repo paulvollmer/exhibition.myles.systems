@@ -1,6 +1,6 @@
 # myles.systems - design assets v. 0.0.3
 
-### www.myles-systems.github.io
+### myles-systems.github.io
 
 # Preview:
 
