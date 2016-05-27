@@ -10,7 +10,8 @@ body {
     height: 100%;
     font-family: Lato,"Helvetica Neue",sans-serif;
     background-color: black;
-    background: url(../img/intro-bg.jpg) repeat;
+    background: url(../img/intro-bg.gif) no-repeat;
+    background-repeat: no-repeat;
 }
 
 html {
@@ -176,10 +177,6 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: black;
-    background: url(../img/intro-bg.jpg) repeat;
-    background-repeat: repeat;
-    background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
