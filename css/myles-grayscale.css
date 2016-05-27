@@ -76,7 +76,7 @@ p {
 }
 
 a {
-    color: #00fff6;
+    color: grey;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
