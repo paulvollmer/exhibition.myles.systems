@@ -12,6 +12,7 @@ body {
     background-color: black;
     background: url(../img/intro-bg.jpg) no-repeat;
     background-repeat: no-repeat;
+
 }
 
 html {
@@ -75,7 +76,7 @@ p {
 }
 
 a {
-    color: #656565;
+    color: #00fff6;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
