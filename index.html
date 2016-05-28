@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="myles.systems">
     <meta name="author" content="myles.systems">
-    
+
      <!-- icons devices -->
-    <link rel="shortcut icon" type="image/x-icon" href="http://myles-systems.github.io/img/logo/favicon_myles_systems.ico">
+     <link rel="image_src" href="http://myles-systems.github.io/preview.png">
+
+     <!-- icons devices -->
+         <link rel="shortcut icon" type="image/x-icon" href="http://myles-systems.github.io/img/logo/favicon_myles_systems.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="http://myles-systems.github.io/img/logo/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="http://myles-systems.github.io/img/logo/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="http://myles-systems.github.io/img/logo/icons/apple-icon-72x72.png">
@@ -24,7 +27,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="http://myles-sysmetems.github.io/img/logo/icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="http://myles-systems.github.io/img/logo/icons/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
-    
+
      <!-- Meta Name -->
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="http://myles-systems.github.io/img/logo/icons/ms-icon-144x144.png">
@@ -34,15 +37,18 @@
     <meta name="author" content="myles.systems – exhibition os">
     <meta name="robots" content="index, follow">
     <meta name="revisit-after" content="3 month">
-    
+
     <!-- Meta Prop -->
     <meta property="og:title" content="myles.systems">
     <meta property="og:site_name" content="myles.systems">
     <meta property="og:url" content="http://www.myles.systems">
     <meta property="og:description" content="we develope a exhibition operating system. myles.systems – young team of designers">
-    <meta property="og:image" content="http://myles-systems.github.io/preview.png"> 
+    <meta property="og:image" content="http://myles-systems.github.io/preview.png">
     <meta property="fb:app_id" content="1028005667290652">
     <meta property="og:type" content="article">
+
+    <!-- Particler -->
+    <script src="dist/particler.js"></script>
 
     <title>myles.systems</title>
     <!-- Bootstrap Core CSS -->
@@ -63,6 +69,9 @@
     <!-- Navigation -->
         </div>
         <!-- /.container -->
+
+
+
     </nav>
     <!-- Intro Header -->
     <header class="intro">
@@ -72,17 +81,28 @@
                     <div class="col-md-8 col-md-offset-2">
                         <a href="http://www.myles.systems"><h1 class="brand-heading"><img src="http://myles-systems.github.io/img/logo/Myles_Logo_v1.png"></h1></a>
                         <p class="intro-text"><h2><a href="http://www.myles.systems">myles.systems</a> – exhibition operating system</h2>
-                        <h3>myles.systems –<a href="http://twitter.com/mylessystems"> Twitter </a>and <a href="https://github.com/myles-systems"> Github </a> – All rights reserved</h3>
+                        <h3>myles.systems –<a href="http://twitter.com/mylessystems"> Twitter </a>and <a href="https://github.com/myles-systems"> Github </a>– Friedrich-Ebert-Str. 4 – 14467 Potsdam</h3>
+
                         </a>
                     </div>
                 </div>
+              </div>
+                <canvas id="first" class="molecules__wrapper"></canvas>
+              </div>
             </div>
         </div>
     </header>
 
+
+
     <!-- Footer -->
     <!-- jQuery -->
     <script src="http://myles-systems.github.io/js/jquery.js"></script>
+
+    <!-- Particle System -->
+    <script type="text/javascript">
+        var firstParticlerExample = new Particler("first");
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="http://myles-systems.github.io/js/bootstrap.min.js"></script>

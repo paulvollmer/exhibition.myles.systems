@@ -15,6 +15,35 @@ body {
 
 }
 
+/*!
+ molecules__wrapper */
+
+.molecules__wrapper {
+height: 600px;
+width: 100%;
+position: relative;
+z-index: 1;
+
+}
+
+.container {
+height: 600px;
+width: 100%;
+position: absolute;
+z-index: 2;
+
+}
+
+
+.row {
+  top: 150px;
+position: relative;;
+z-index: 2;
+
+}
+
+
+
 html {
     width: 100%;
     height: 100%;
@@ -182,6 +211,7 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 .intro .intro-body {
@@ -294,7 +324,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/downloads-bg.gif) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
