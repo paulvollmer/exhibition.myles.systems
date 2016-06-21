@@ -61,7 +61,7 @@
     <!-- Custom CSS -->
     <link href="http://myles-systems.github.io/css/myles-grayscale.css" rel="stylesheet">
     <!-- bideo css -->
-    <link href="css/myles_bideo.css" rel="stylesheet">
+    <link href="http://myles-systems.github.io/css/myles_bideo.css" rel="stylesheet">
     <!-- Custom Fonts -->
     <link href="http://myles-systems.github.io/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -71,147 +71,6 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <style>
-    * {
-      margin: 0; padding: 0;
-    }
-
-    html, body {
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
-    }
-
-    #container {
-      overflow: hidden;
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-    }
-
-    #background_video {
-      position: absolute;
-
-      top: 50%; left: 50%;
-      transform: translate(-50%, -50%);
-
-      object-fit: cover;
-      height: 100%; width: 100%;
-    }
-
-    #video_cover {
-      position: absolute;
-
-      width: 100%; height: 100%;
-
-      background: url('video_cover.jpeg') no-repeat;
-      background-size: cover;
-      background-position: center;
-    }
-
-    #video_controls {
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, 0);
-    }
-
-    #play img {
-      width: 100px;
-    }
-    #pause img {
-      width: 90px;
-    }
-    #pause {
-      display: none;
-    }
-
-    @media (min-width: 768px) {
-      #video_controls {
-        display: none;
-      }
-    }
-
-    /* Demo page specific styles */
-
-    body {
-      text-align: center;
-      font-family: 'proxima-nova', Helvetica;
-    }
-
-    #container {
-      height: 100%;
-    }
-
-    #overlay {
-      position: absolute;
-      top: 0; right: 0; left: 0; bottom: 0;
-      background: rgba(0,0,0,0.5);
-    }
-
-    #main_content {
-      z-index: 2;
-      position: relative;
-      display: inline-block;
-
-      /* Vertical center */
-      top: 50%;
-      transform: translateY(-50%);
-    }
-
-    #main_content h1 {
-      color: white;
-      font-family: Calibri,"Helvetica Neue",Helvetica,Arial,sans-serif;
-      font-size: 43px;
-      font-weight: 500;
-      letter-spacing: 1px;
-      margin: 0 0 3px;
-    }
-
-    #main_content .sub_head {
-      color: rgba(255,255,255,0.5);
-      font-size: 18px;
-    }
-
-    #main_content .info {
-      color: rgba(255,255,255,0.5);
-      font-size: 12px;
-      margin-top: 10px;
-    }
-
-    #links {
-      margin-top: 50px;
-    }
-
-    #links a {
-      border: 2px solid rgba(255,255,255,0.20);
-      border-radius: 61px;
-      font-size: 12px;
-      color: #FFFFFF;
-      letter-spacing: 1px;
-      text-decoration: none;
-      text-transform: uppercase;
-      padding: 10px 25px;
-      display: inline-block;
-      margin-right: 15px;
-    }
-
-    #footer {
-      position: absolute;
-      bottom: 0; left: 0; right: 0;
-    }
-    #footer a {
-      color: rgba(255,255,255,0.5);
-      text-decoration: none;
-      margin: 10px;
-      font-size: 12px;
-    }
-    #footer a:first-child {
-      float: left;
-    }
-    #footer a:last-child {
-      float: right;
-    }
-  </style>
-
   <script src="https://use.typekit.net/nlq1kdt.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
@@ -219,8 +78,6 @@
   <div id="container">
     <video id="background_video" loop muted></video>
     <div id="video_cover"></div>
-
-
     <section id="main_content">
       <div id="head">
         <img src="http://myles-systems.github.io/img/logo/Myles_Logo_v1white80.png">
@@ -229,13 +86,9 @@
       </div>
       <div id="links">
         <a href="https://github.com/myles-systems/">View on Github</a>
-  
       </div>
-
     </section>
   </div>
-
-
   <!-- Intro Header -->
   <header class="intro">
               <canvas id="first" class="molecules__wrapper"></canvas>
@@ -243,48 +96,34 @@
           </div>
       </div>
   </header>
-
-
   <div id="footer">
-    <a href="https://twitter.com/mylessystems">Follow on Twitter</a>
+    <a href="">yles.systems – German based software brand.</a>
     <a href="https://www.youtube.com/watch?v=w7JrHIHi8t0" target="_blank">
       Test-Video by shortenit
     </a>
   </div>
 
-
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-
-    <a href="https://www.youtube.com/watch?v=w7JrHIHi8t0" target="_blank">
-
-    </a>
+  <a href="https://www.youtube.com/watch?v=w7JrHIHi8t0" target="_blank"></a>
   </div>
-
   <script src="bideo.js"></script>
   <script src="main.js"></script>
-
   <script>
     if (window.location.host.indexOf('github.io') !== -1 && window.location.protocol !== "https:") {
       window.location.protocol = "https";
     }
   </script>
-
-
   <!-- Footer -->
   <!-- jQuery -->
   <script src="http://myles-systems.github.io/js/jquery.js"></script>
-
   <!-- Particle System -->
   <script type="text/javascript">
       var firstParticlerExample = new Particler("first");
   </script>
-
   <!-- Bootstrap Core JavaScript -->
   <script src="http://myles-systems.github.io/js/bootstrap.min.js"></script>
-
   <!-- Plugin JavaScript
   <script src="http://myles-systems.github.io/js/jquery.easing.min.js"></script> -->
-
   <!-- Custom Theme JavaScript
   <script src="http://myles-systems.github.io/js/grayscale.js"></script> -->
 
