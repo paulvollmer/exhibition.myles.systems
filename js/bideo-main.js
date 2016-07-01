@@ -22,11 +22,11 @@
     // of different video formats to add
     src: [
       {
-        src: 'night.mp4',
+        src: 'http://myles-systems.github.io/video/night.mp4',
         type: 'video/mp4'
       },
       {
-        src: 'night.webm',
+        src: 'http://myles-systems.github.io/video/night.webm',
         type: 'video/webm;codecs="vp8, vorbis"'
       }
     ],
