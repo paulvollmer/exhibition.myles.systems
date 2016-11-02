@@ -6,14 +6,29 @@ html body  {
   background-color: black;
 }
 
+/*
+ * the main link style
+*/
+a:hover{
+  color:red;
+  text-decoration: none;
+}
+
+
+/*
+ * the navigation bar
+*/
+
 #nav {
   position: fixed;
   top:0;
-  left:0;
+  left: 15px;
   height: 120px;
   width: 100%;
   display: inline-block;
 }
+
+
 
 #logo {
   display:block;
@@ -39,4 +54,33 @@ padding: 50px;
   padding:50px 50px;
   font-size: 20px;
   display:inline-block;
+}
+
+
+/*
+ * the intro section
+*/
+
+#intro {
+  margin: 0em 0em;
+  background-image: url(../img/intro.png);
+  background-repeat: no-repeat;
+  background-color: #dadada;
+}
+
+#intro h1 {
+  margin:10em 2em;
+  float:right;
+}
+
+/*
+ * the what section
+*/
+#what {
+    margin: 0em 0em;
+
+}
+
+#what p {
+  float: right;
 }
