@@ -6,6 +6,7 @@ html body  {
   background-color: black;
 }
 
+<<<<<<< HEAD
 /*
  * the main link style
 */
@@ -83,4 +84,8 @@ padding: 50px;
 
 #what p {
   float: right;
+=======
+.btn-invite {
+  
+>>>>>>> 8cb8087c49852e43e193e1e16ed0e98d403cea4b
 }
