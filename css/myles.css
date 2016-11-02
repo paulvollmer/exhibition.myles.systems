@@ -2,17 +2,34 @@
  * Copyright 2016 (c) myles.systems, all rights reserved
  */
 
-html body  {
+html, body  {
   background-color: black;
+font-family: 'Open Sans', sans-serif;
+font-size: 18px;
+
 }
 
-<<<<<<< HEAD
+
+/*
+ * the main class style
+*/
+
+.row {
+    background-repeat: no-repeat;
+}
+
+
 /*
  * the main link style
 */
+
+a,
+a:hover {
+  text-decoration: none;
+
+}
 a:hover{
   color:red;
-  text-decoration: none;
 }
 
 
@@ -47,7 +64,7 @@ padding: 50px;
 #nav ul {
   overflow:hidden;
   float: right;
-
+text-decoration: none;
 }
 
 #nav li {
@@ -79,13 +96,96 @@ padding: 50px;
 */
 #what {
     margin: 0em 0em;
+    background-position: bottom;
+    background-image: url(../img/what.png);
+    display: block;
+    height: 100vh;
+}
+
+.leftHeadline{
+  float:left;
+  margin-left:4em;
 
 }
 
 #what p {
-  float: right;
-=======
+
+    font-size:2em;
+    font-weight: bold;
+    color:#eee;
+
+}
+
+
+
+/*
+ * the os section
+*/
+#os {
+    margin: 0em 0em;
+    background-position: bottom;
+    background-image: url(../img/os.png);
+    display: block;
+    height: 100vh;
+}
+/*
+ * the planing section
+*/
+#planing {
+    margin: 0em 0em;
+    background-position: bottom;
+    background-image: url(../img/planing.png);
+    display: block;
+    height: 100vh;
+}
+
+/*
+ * the control section
+*/
+#control {
+    margin: 0em 0em;
+    background-position: bottom;
+    background-image: url(../img/control.png);
+    display: block;
+    height: 100vh;
+}
+
+/*
+ * the analyze section
+*/
+#analyze {
+    margin: 0em 0em;
+    background-position: bottom;
+    background-image: url(../img/analyse.png);
+    display: block;
+    height: 100vh;
+}
+
+
+/*
+ * the beta section
+*/
+#beta {
+    margin: 0em 0em;
+    background-position: bottom;
+    background-image: url();
+    display: block;
+    height: 100vh;
+}
+
+
+/*
+ * the footer section
+*/
+#footer {
+    margin: 0em 0em;
+    background-position: bottom;
+    background-image: url();
+    display: block;
+    height: 100vh;
+}
+
 .btn-invite {
-  
->>>>>>> 8cb8087c49852e43e193e1e16ed0e98d403cea4b
+
+
 }
