@@ -5,3 +5,38 @@
 html body  {
   background-color: black;
 }
+
+#nav {
+  position: fixed;
+  top:0;
+  left:0;
+  height: 120px;
+  width: 100%;
+  display: inline-block;
+}
+
+#logo {
+  display:block;
+  width: 120px;
+  height: 120px;
+  float:left;
+  background-image: url(../img/logo/Myles_Logo_v1.svg);
+  background-position: center;
+}
+
+#nav span {
+  font-size: 50px;
+padding: 50px;
+}
+#nav ul {
+  overflow:hidden;
+  float: right;
+
+}
+
+#nav li {
+
+  padding:50px 50px;
+  font-size: 20px;
+  display:inline-block;
+}
