@@ -6,6 +6,86 @@ html body  {
   background-color: black;
 }
 
+<<<<<<< HEAD
+/*
+ * the main link style
+*/
+a:hover{
+  color:red;
+  text-decoration: none;
+}
+
+
+/*
+ * the navigation bar
+*/
+
+#nav {
+  position: fixed;
+  top:0;
+  left: 15px;
+  height: 120px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+
+#logo {
+  display:block;
+  width: 120px;
+  height: 120px;
+  float:left;
+  background-image: url(../img/logo/Myles_Logo_v1.svg);
+  background-position: center;
+}
+
+#nav span {
+  font-size: 50px;
+padding: 50px;
+}
+#nav ul {
+  overflow:hidden;
+  float: right;
+
+}
+
+#nav li {
+
+  padding:50px 50px;
+  font-size: 20px;
+  display:inline-block;
+}
+
+
+/*
+ * the intro section
+*/
+
+#intro {
+  margin: 0em 0em;
+  background-image: url(../img/intro.png);
+  background-repeat: no-repeat;
+  background-color: #dadada;
+}
+
+#intro h1 {
+  margin:10em 2em;
+  float:right;
+}
+
+/*
+ * the what section
+*/
+#what {
+    margin: 0em 0em;
+
+}
+
+#what p {
+  float: right;
+=======
 .btn-invite {
   
+>>>>>>> 8cb8087c49852e43e193e1e16ed0e98d403cea4b
 }
