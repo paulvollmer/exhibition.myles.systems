@@ -10,7 +10,7 @@ lint-js:
 	jshint js/myles.js
 
 lint-css:
-	csslint css/myles.css
+	stylelint css/myles.css
 
 lint-manifest:
 	jsonlint -q manifest.json
@@ -26,5 +26,5 @@ fmt-manifest:
 
 install:
 	npm install -g jshint
-	npm install -g csslint
+	npm install -g stylelint
 	npm install -g jsonlint
