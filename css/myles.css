@@ -2,12 +2,11 @@
  * Copyright 2016 (c) myles.systems, all rights reserved
  */
 
-html, body  {
-  background-color: black;
-font-family: 'Open Sans', sans-serif;
-font-size: 16px;
- color: #777;
-
+html, body {
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #777;
 }
 
 
@@ -16,51 +15,71 @@ font-size: 16px;
 */
 
 .container-fluid {
-  padding: 0em;
+    padding: 0em;
+}
+.wp {
+  position: absolute;
+margin-top: -500px;
+
+}
+.row {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5.5em 16em;
+}
+.hi{
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -ms-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
 }
 
-.row {background-repeat: no-repeat;background-size: cover;padding: 5.5em 16em;}
-
-.leftHeadline{
-  float:left;
-  margin-left:4em;
-
+.leftHeadline {
+    float: left;
+    margin-left: 4em;
+    opacity: 0;
+    -webkit-transition: opacity 1.5s ease-in;
+    -moz-transition: opacity 1.5s ease-in;
+    -ms-transition: opacity 1.5s ease-in;
+    -o-transition: opacity 1.5s ease-in;
+    transition: opacity 1.5s ease-in;
 }
 
 h1 {
- font-style: italic;
- line-height: 1.75em;
+    font-style: italic;
+    line-height: 1.75em;
 }
 
 h3 {
-  font-style: italic;
-  color: #fff;
-  line-height: 1.5em;
-  /* padding: 2em 0em; */
-  margin: 2em 0em;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.5em;
+    /* padding: 2em 0em; */
+    margin: 2em 0em;
 }
 
-h1 > b,
-p > b {
-  color: #fff;
+h1>b, p>b {
+    color: #fff;
 }
 
 p {
-  font-size: 1em;
-  font-weight: 600;
+    font-size: 1em;
+    font-weight: 600;
 }
+
 
 /*
  * the main link style
 */
 
-a,
-a:hover {
-  text-decoration: none;
-
+a, a:hover {
+    text-decoration: none;
 }
-a:hover{
-  color:red;
+
+a:hover {
+    color: red;
 }
 
 
@@ -69,46 +88,43 @@ a:hover{
 */
 
 #nav {
-  position: fixed;
-  top:0;
-  left: 0;
-  height: 100px;
-  width: 100%;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
-
-
 #logo {
-  display:block;
-  width: 100px;
-  height: 100px;
-  float:left;
-  background-image: url(../img/logo/Myles_Logo_v1.svg);
-  background-position: center;
-  background-color: #000;
-  background-size: 80%;
-
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    background-image: url(../img/logo/Myles_Logo_v1.svg);
+    background-position: center;
+    background-color: #000;
+    background-size: 80%;
 }
 
 #nav span {
-  position: absolute;
-  /* margin-top: 20px; */
-  font-size: 1.5em;
-  padding: 1.2em;
+    position: absolute;
+    /* margin-top: 20px; */
+    font-size: 1.5em;
+    padding: 1.2em;
 }
+
 #nav ul {
-  overflow:hidden;
-  float: right;
-text-decoration: none;
+    overflow: hidden;
+    float: right;
+    text-decoration: none;
 }
 
 #nav li {
-
-  padding:2em 2em;
-  font-size: 1em;
-  display:inline-block;
+    padding: 2em 2em;
+    font-size: 1em;
+    display: inline-block;
 }
 
 
@@ -117,23 +133,25 @@ text-decoration: none;
 */
 
 #intro {
-  margin: 0em 0em;
-  padding: 0em 16em;
-  background-image: url(../img/intro.png);
-  height: 100vh;
-  background-color: #dadada;
+    margin: 0em 0em;
+    padding: 0em 16em;
+    background-image: url(../img/intro.png);
+    height: 100vh;
+    background-color: #dadada;
 }
 
 #intro p {
-  margin:8em 0em;
-  float:right;
-  font-weight: 400;
-  font-size: 2.5em;
+    margin: 8em 0em;
+    float: right;
+    font-weight: 400;
+    font-size: 2.5em;
 }
+
 
 /*
  * the what section
 */
+
 #what {
     margin: 0em 0em;
     padding-top: 10em;
@@ -143,106 +161,127 @@ text-decoration: none;
     height: 100vh;
 }
 
-
-
 #pictureWhat {
-  margin: 0em 0em;
-  padding: 0em 16em;
-  background-image: url(../img/what.png);
-  display: block;
-  height: 100vh;
+    margin: 0em 0em;
+    padding: 0em 16em;
+    background-image: url(../img/what.png);
+    display: block;
+    height: 100vh;
 }
 
 
 /*
  * the os section
 */
-#os {
 
-  display: block;
-  /* height: 80vh; */
-  /* padding-top: 3em; */
-  /* padding-bottom: 3em; */
+#os {
+    display: block;
+    /* height: 80vh; */
+    /* padding-top: 3em; */
+    /* padding-bottom: 3em; */
 }
 
 #pictureOs {
-
-  background-image: url(../img/os.png);
-  display: block;
-  height: 100vh;
+    background-image: url(../img/os.png);
+    display: block;
+    height: 100vh;
 }
+
+
 /*
  * the planing section
 */
-#planing {
 
+#planing {
     display: block;
     /* height: 100vh; */
 }
+
 #picturePlaning {
-  margin: 0em 0em;
+    margin: 0em 0em;
     background-image: url(../img/planing.png);
-  display: block;
-  height: 100vh;
+    display: block;
+    height: 100vh;
 }
+
+
 /*
  * the control section
 */
-#control {
 
+#control {
     display: block;
     /* height: 100vh; */
 }
+
 #pictureControl {
-  margin: 0em 0em;
+    margin: 0em 0em;
     background-image: url(../img/control.png);
-  display: block;
-  height: 100vh;
+    display: block;
+    height: 100vh;
 }
+
+
 /*
  * the analyze section
 */
+
 #analyze {
     display: block;
     /* height: 100vh; */
 }
+
 #analyzePicture {
     margin: 0em 0em;
-
     background-image: url(../img/analyze.png);
     display: block;
-
- height: 100vh;
+    height: 100vh;
 }
+
 
 /*
  * the software section
 */
-#software {
 
+#software {}
+
+.hidden {
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
 }
+
+.show {
+    opacity: 1;
+}
+
 .symbol {
-margin:10px;
-
-  display: block;
+    margin: 10px;
+    display: block;
 }
-.symbol > div {
 
-  margin: 0 auto;
-  width: 64px;
-  height: 64px;
-  background-color:#f0f;
+.symbol>div {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background-color: #f0f;
 }
+
 #softwarePicture {
     margin: 0em 0em;
     background-image: url(../img/software.png);
     display: block;
- height: 100vh;
+    height: 100vh;
 }
+
 
 /*
  * the beta section
 */
+
 #orderbeta {
     margin: 0em 0em;
     background-image: url();
@@ -254,6 +293,7 @@ margin:10px;
 /*
  * the footer section
 */
+
 #footer {
     margin: 0em 0em;
     background-position: bottom;
@@ -262,7 +302,4 @@ margin:10px;
     /* height: 100vh; */
 }
 
-.btn-invite {
-
-
-}
+.btn-invite {}
