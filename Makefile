@@ -4,7 +4,10 @@
 
 all: test
 
-test: lint-js lint-css lint-manifest
+test: lint-html lint-js lint-css lint-manifest
+
+lint-html:
+	htmlhint index.html
 
 lint-js:
 	jshint js/myles.js
@@ -27,4 +30,7 @@ fmt-manifest:
 install:
 	npm install -g jshint
 	npm install -g stylelint
+	npm install stylelint-config-standard
+	stylelint --version
 	npm install -g jsonlint
+	npm install -g htmlhint
