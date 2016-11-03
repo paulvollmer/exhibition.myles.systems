@@ -27,4 +27,5 @@ fmt-manifest:
 install:
 	npm install -g jshint
 	npm install -g stylelint
+	stylelint --version
 	npm install -g jsonlint
