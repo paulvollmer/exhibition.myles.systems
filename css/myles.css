@@ -8,9 +8,10 @@ html body {
   color: #777;
   background-color: black;
 }
+
 /*
  * the main class style
-*/
+ */
 .container-fluid {
   padding: 0;
 }
@@ -68,9 +69,10 @@ p {
   font-size: 1em;
   font-weight: 600;
 }
+
 /*
  * the main link style
-*/
+ */
 a,
 a:hover {
   text-decoration: none;
@@ -79,9 +81,10 @@ a:hover {
 a:hover {
   color: red;
 }
+
 /*
  * the navigation bar
-*/
+ */
 .nav {
   font-size: 16px;
   position: fixed;
@@ -165,9 +168,10 @@ a:hover {
 .nav.smaller ul li {
   padding: 1.3em 2em;
 }
+
 /*
  * the intro section
-*/
+ */
 #intro {
   height: 100vh;
   margin: 0;
@@ -182,9 +186,10 @@ a:hover {
   float: right;
   margin: 8em 0;
 }
+
 /*
  * the what section
-*/
+ */
 #what {
   display: block;
   height: 100vh;
@@ -201,9 +206,10 @@ a:hover {
   padding: 0 16em;
   background-image: url("../img/what.png");
 }
+
 /*
  * the os section
-*/
+ */
 #os {
   display: block;
   /* height: 80vh; */
@@ -216,9 +222,10 @@ a:hover {
   height: 100vh;
   background-image: url("../img/os.png");
 }
+
 /*
  * the planing section
-*/
+ */
 #planing {
   display: block;
   /* height: 100vh; */
@@ -230,9 +237,10 @@ a:hover {
   margin: 0;
   background-image: url("../img/planing.png");
 }
+
 /*
  * the control section
-*/
+ */
 #control {
   display: block;
   /* height: 100vh; */
@@ -244,9 +252,10 @@ a:hover {
   margin: 0;
   background-image: url("../img/control.png");
 }
+
 /*
  * the analyze section
-*/
+ */
 #analyze {
   display: block;
   /* height: 100vh; */
@@ -258,9 +267,10 @@ a:hover {
   margin: 0;
   background-image: url("../img/analyze.png");
 }
+
 /*
  * the software section
-*/
+ */
 .subhead {
   -webkit-transition: opacity 0.5s ease-in;
   -moz-transition: opacity 0.5s ease-in;
@@ -292,9 +302,10 @@ a:hover {
   margin: 0;
   background-image: url("../img/software.png");
 }
+
 /*
  * the beta section
-*/
+ */
 #orderbeta {
   display: block;
   margin: 0;
