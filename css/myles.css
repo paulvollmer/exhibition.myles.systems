@@ -3,11 +3,11 @@
  */
 
 html, body {
-    background-color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    color: #777;
-    overflow-x: hidden;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #777;
+  overflow-x: hidden;
 }
 
 
@@ -16,19 +16,21 @@ html, body {
 */
 
 .container-fluid {
-    padding: 0em;
+  padding: 0em;
 }
+
 .wp {
   position: absolute;
   margin-top: -500px;
 }
-.row {
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 5.5em 16em;
 
+.row {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5.5em 16em;
 }
-.hi{
+
+.hi {
   opacity: 0;
   -webkit-transition: opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
@@ -38,36 +40,36 @@ html, body {
 }
 
 .leftHeadline {
-    float: left;
-    margin-left: 4em;
-    opacity: 0;
-    -webkit-transition: opacity 1.5s ease-in;
-    -moz-transition: opacity 1.5s ease-in;
-    -ms-transition: opacity 1.5s ease-in;
-    -o-transition: opacity 1.5s ease-in;
-    transition: opacity 1.5s ease-in;
+  float: left;
+  margin-left: 4em;
+  opacity: 0;
+  -webkit-transition: opacity 1.5s ease-in;
+  -moz-transition: opacity 1.5s ease-in;
+  -ms-transition: opacity 1.5s ease-in;
+  -o-transition: opacity 1.5s ease-in;
+  transition: opacity 1.5s ease-in;
 }
 
 h1 {
-    font-style: italic;
-    line-height: 1.75em;
+  font-style: italic;
+  line-height: 1.75em;
 }
 
 h3 {
-    font-style: italic;
-    color: #fff;
-    line-height: 1.5em;
-    /* padding: 2em 0em; */
-    margin: 2em 0em;
+  font-style: italic;
+  color: #fff;
+  line-height: 1.5em;
+  /* padding: 2em 0em; */
+  margin: 2em 0em;
 }
 
 h1>b, p>b {
-    color: #fff;
+  color: #fff;
 }
 
 p {
-    font-size: 1em;
-    font-weight: 600;
+  font-size: 1em;
+  font-weight: 600;
 }
 
 
@@ -76,11 +78,11 @@ p {
 */
 
 a, a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 
@@ -89,73 +91,69 @@ a:hover {
 */
 
 .nav {
-  z-index:5000;
-  -webkit-transition: height 1s ease-in;
-  -moz-transition: height 1s ease-in;
-  -ms-transition: height 1s ease-in;
-  -o-transition: height 1s ease-in;
-  transition: height 1s ease-in;
-    position: fixed;
-    font-size: 16px;
-    top: 0;
-    left: 0;
-    height: 5em;
-    width: 100%;
-    display: inline-block;
-    background-color: rgba(0, 0, 0, 0.5);
+  z-index: 5000;
+  -webkit-transition: height 0.5s ease-in;
+  -moz-transition: height 0.5s ease-in;
+  -ms-transition: height 0.5s ease-in;
+  -o-transition: height 0.5s ease-in;
+  transition: height 0.5s ease-in;
+  position: fixed;
+  font-size: 16px;
+  top: 0;
+  left: 0;
+  height: 5em;
+  width: 100%;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-
 .logo {
-    display:block;
-    height: 5em;
-    width: 5em;
-    float: left;
-    background-image: url(../img/logo/Myles_Logo_v1.svg);
-    background-position:center;
-    background-color: #000;
-    background-size: contain;
-    -webkit-transition: height 1s ease-in;
-    -moz-transition: height 1s ease-in;
-    -ms-transition: height 1s ease-in;
-    -o-transition: height 1s ease-in;
-    transition: height 1s ease-in;
-
+  display: block;
+  height: 5em;
+  width: 5em;
+  float: left;
+  background-image: url(../img/logo/Myles_Logo_v1.svg);
+  background-position: center;
+  background-color: #000;
+  background-size: contain;
+  -webkit-transition: height 0.5s ease-in;
+  -moz-transition: height 0.5s ease-in;
+  -ms-transition: height 0.5s ease-in;
+  -o-transition: height 0.5s ease-in;
+  transition: height 0.5s ease-in;
 }
 
 .nav span {
-    position: absolute;
-    /* margin-top: 20px; */
-    font-size: 1.5em;
-    padding: 1em;
-    -webkit-transition: padding 1s ease-in;
-    -moz-transition: padding 1s ease-in;
-    -ms-transition: padding 1s ease-in;
-    -o-transition: padding 1s ease-in;
-    transition: padding 1s ease-in;
+  position: absolute;
+  /* margin-top: 20px; */
+  font-size: 1.5em;
+  padding: 1em;
+  -webkit-transition: padding 0.5s ease-in;
+  -moz-transition: padding 0.5s ease-in;
+  -ms-transition: padding 0.5s ease-in;
+  -o-transition: padding 0.5s ease-in;
+  transition: padding 0.5s ease-in;
 }
 
 .nav ul {
-    overflow: hidden;
-    float: right;
-    text-decoration: none;
+  overflow: hidden;
+  float: right;
+  text-decoration: none;
 }
 
 .nav li {
-    padding: 2em 2em;
-    font-size: 1em;
-    display: inline-block;
-    -webkit-transition: padding 1s ease-in;
-    -moz-transition: padding 1s ease-in;
-    -ms-transition: padding 1s ease-in;
-    -o-transition: padding 1s ease-in;
-    transition: padding 1s ease-in;
+  padding: 2em 2em;
+  font-size: 1em;
+  display: inline-block;
+  -webkit-transition: padding 0.5s ease-in;
+  -moz-transition: padding 0.5s ease-in;
+  -ms-transition: padding 0.5s ease-in;
+  -o-transition: padding 0.5s ease-in;
+  transition: padding 0.5s ease-in;
 }
-
 
 .smaller {
   height: 4em;
-
 }
 
 .nav.smaller div.logo {
@@ -176,18 +174,18 @@ a:hover {
 */
 
 #intro {
-    margin: 0em 0em;
-    padding: 0em 16em;
-    background-image: url(../img/intro.png);
-    height: 100vh;
-    background-color: #dadada;
+  margin: 0em 0em;
+  padding: 0em 16em;
+  background-image: url(../img/intro.png);
+  height: 100vh;
+  background-color: #dadada;
 }
 
 #intro p {
-    margin: 8em 0em;
-    float: right;
-    font-weight: 400;
-    font-size: 2.5em;
+  margin: 8em 0em;
+  float: right;
+  font-weight: 400;
+  font-size: 2.5em;
 }
 
 
@@ -196,20 +194,20 @@ a:hover {
 */
 
 #what {
-    margin: 0em 0em;
-    padding-top: 10em;
-    background-position: bottom;
-    background-image: url(../img/intro.png);
-    display: block;
-    height: 100vh;
+  margin: 0em 0em;
+  padding-top: 10em;
+  background-position: bottom;
+  background-image: url(../img/intro.png);
+  display: block;
+  height: 100vh;
 }
 
 #pictureWhat {
-    margin: 0em 0em;
-    padding: 0em 16em;
-    background-image: url(../img/what.png);
-    display: block;
-    height: 100vh;
+  margin: 0em 0em;
+  padding: 0em 16em;
+  background-image: url(../img/what.png);
+  display: block;
+  height: 100vh;
 }
 
 
@@ -218,16 +216,16 @@ a:hover {
 */
 
 #os {
-    display: block;
-    /* height: 80vh; */
-    /* padding-top: 3em; */
-    /* padding-bottom: 3em; */
+  display: block;
+  /* height: 80vh; */
+  /* padding-top: 3em; */
+  /* padding-bottom: 3em; */
 }
 
 #pictureOs {
-    background-image: url(../img/os.png);
-    display: block;
-    height: 100vh;
+  background-image: url(../img/os.png);
+  display: block;
+  height: 100vh;
 }
 
 
@@ -236,15 +234,15 @@ a:hover {
 */
 
 #planing {
-    display: block;
-    /* height: 100vh; */
+  display: block;
+  /* height: 100vh; */
 }
 
 #picturePlaning {
-    margin: 0em 0em;
-    background-image: url(../img/planing.png);
-    display: block;
-    height: 100vh;
+  margin: 0em 0em;
+  background-image: url(../img/planing.png);
+  display: block;
+  height: 100vh;
 }
 
 
@@ -253,15 +251,15 @@ a:hover {
 */
 
 #control {
-    display: block;
-    /* height: 100vh; */
+  display: block;
+  /* height: 100vh; */
 }
 
 #pictureControl {
-    margin: 0em 0em;
-    background-image: url(../img/control.png);
-    display: block;
-    height: 100vh;
+  margin: 0em 0em;
+  background-image: url(../img/control.png);
+  display: block;
+  height: 100vh;
 }
 
 
@@ -270,15 +268,15 @@ a:hover {
 */
 
 #analyze {
-    display: block;
-    /* height: 100vh; */
+  display: block;
+  /* height: 100vh; */
 }
 
 #analyzePicture {
-    margin: 0em 0em;
-    background-image: url(../img/analyze.png);
-    display: block;
-    height: 100vh;
+  margin: 0em 0em;
+  background-image: url(../img/analyze.png);
+  display: block;
+  height: 100vh;
 }
 
 
@@ -289,35 +287,35 @@ a:hover {
 #software {}
 
 .subhead {
-    opacity: 0;
-    -webkit-transition: opacity 1s ease-in;
-    -moz-transition: opacity 1s ease-in;
-    -ms-transition: opacity 1s ease-in;
-    -o-transition: opacity 1s ease-in;
-    transition: opacity 1s ease-in;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in;
+  -moz-transition: opacity 0.5s ease-in;
+  -ms-transition: opacity 0.5s ease-in;
+  -o-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
 }
 
 .show {
-    opacity: 1;
+  opacity: 1;
 }
 
 .symbol {
-    margin: 10px;
-    display: block;
+  margin: 10px;
+  display: block;
 }
 
 .symbol>div {
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
-    background-color: #f0f;
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background-color: #f0f;
 }
 
 #softwarePicture {
-    margin: 0em 0em;
-    background-image: url(../img/software.png);
-    display: block;
-    height: 100vh;
+  margin: 0em 0em;
+  background-image: url(../img/software.png);
+  display: block;
+  height: 100vh;
 }
 
 
@@ -326,10 +324,10 @@ a:hover {
 */
 
 #orderbeta {
-    margin: 0em 0em;
-    background-image: url();
-    display: block;
-    /* height: 100vh; */
+  margin: 0em 0em;
+  background-image: url();
+  display: block;
+  /* height: 100vh; */
 }
 
 
@@ -338,11 +336,11 @@ a:hover {
 */
 
 #footer {
-    margin: 0em 0em;
-    background-position: bottom;
-    background-image: url();
-    display: block;
-    /* height: 100vh; */
+  margin: 0em 0em;
+  background-position: bottom;
+  background-image: url();
+  display: block;
+  /* height: 100vh; */
 }
 
 .btn-invite {}
