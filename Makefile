@@ -29,3 +29,4 @@ install:
 	npm install -g stylelint
 	stylelint --version
 	npm install -g jsonlint
+	npm install html5-lint
