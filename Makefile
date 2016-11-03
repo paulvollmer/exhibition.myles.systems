@@ -7,7 +7,7 @@ all: test
 test: lint-html lint-js lint-css lint-manifest
 
 lint-html:
-	./node_modules/html5-lint/html5check.py -h index.html
+	htmlhint index.html
 
 lint-js:
 	jshint js/myles.js
@@ -30,6 +30,7 @@ fmt-manifest:
 install:
 	npm install -g jshint
 	npm install -g stylelint
+	npm install stylelint-config-standard
 	stylelint --version
 	npm install -g jsonlint
-	npm install html5-lint
+	npm install -g htmlhint
