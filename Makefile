@@ -4,7 +4,7 @@
 
 all: test
 
-test: lint-html lint-js lint-css lint-manifest
+test: lint-html lint-js lint-css lint-json
 
 lint-html:
 	htmlhint index.html
@@ -15,8 +15,8 @@ lint-js:
 lint-css:
 	stylelint css/myles.css
 
-lint-manifest:
-	jsonlint -q manifest.json
+lint-json:
+	@jsonlint -q manifest.json .stylelintrc
 
 
 fmt: fmt-manifest
