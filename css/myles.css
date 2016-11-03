@@ -5,7 +5,8 @@
 html, body  {
   background-color: black;
 font-family: 'Open Sans', sans-serif;
-font-size: 18px;
+font-size: 16px;
+ color: #777;
 
 }
 
@@ -14,10 +15,40 @@ font-size: 18px;
  * the main class style
 */
 
-.row {
-    background-repeat: no-repeat;
+.container-fluid {
+  padding: 0em;
 }
 
+.row {background-repeat: no-repeat;background-size: cover;padding: 5.5em 16em;}
+
+.leftHeadline{
+  float:left;
+  margin-left:4em;
+
+}
+
+h1 {
+ font-style: italic;
+ line-height: 1.75em;
+}
+
+h3 {
+  font-style: italic;
+  color: #fff;
+  line-height: 1.5em;
+  /* padding: 2em 0em; */
+  margin: 2em 0em;
+}
+
+h1 > b,
+p > b {
+  color: #fff;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 600;
+}
 
 /*
  * the main link style
@@ -40,26 +71,32 @@ a:hover{
 #nav {
   position: fixed;
   top:0;
-  left: 15px;
-  height: 120px;
+  left: 0;
+  height: 100px;
   width: 100%;
   display: inline-block;
+  background-color: rgba(0, 0, 0, 0.35);
 }
 
 
 
 #logo {
   display:block;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   float:left;
   background-image: url(../img/logo/Myles_Logo_v1.svg);
   background-position: center;
+  background-color: #000;
+  background-size: 80%;
+
 }
 
 #nav span {
-  font-size: 50px;
-padding: 50px;
+  position: absolute;
+  /* margin-top: 20px; */
+  font-size: 1.5em;
+  padding: 1.2em;
 }
 #nav ul {
   overflow:hidden;
@@ -69,8 +106,8 @@ text-decoration: none;
 
 #nav li {
 
-  padding:50px 50px;
-  font-size: 20px;
+  padding:2em 2em;
+  font-size: 1em;
   display:inline-block;
 }
 
@@ -81,14 +118,17 @@ text-decoration: none;
 
 #intro {
   margin: 0em 0em;
+  padding: 0em 16em;
   background-image: url(../img/intro.png);
-  background-repeat: no-repeat;
+  height: 100vh;
   background-color: #dadada;
 }
 
-#intro h1 {
-  margin:10em 2em;
+#intro p {
+  margin:8em 0em;
   float:right;
+  font-weight: 400;
+  font-size: 2.5em;
 }
 
 /*
@@ -96,81 +136,118 @@ text-decoration: none;
 */
 #what {
     margin: 0em 0em;
+    padding-top: 10em;
     background-position: bottom;
-    background-image: url(../img/what.png);
+    background-image: url(../img/intro.png);
     display: block;
     height: 100vh;
 }
 
-.leftHeadline{
-  float:left;
-  margin-left:4em;
 
+
+#pictureWhat {
+  margin: 0em 0em;
+  padding: 0em 16em;
+  background-image: url(../img/what.png);
+  display: block;
+  height: 100vh;
 }
-
-#what p {
-
-    font-size:2em;
-    font-weight: bold;
-    color:#eee;
-
-}
-
 
 
 /*
  * the os section
 */
 #os {
-    margin: 0em 0em;
-    background-position: bottom;
-    background-image: url(../img/os.png);
-    display: block;
-    height: 100vh;
+
+  display: block;
+  /* height: 80vh; */
+  /* padding-top: 3em; */
+  /* padding-bottom: 3em; */
+}
+
+#pictureOs {
+
+  background-image: url(../img/os.png);
+  display: block;
+  height: 100vh;
 }
 /*
  * the planing section
 */
 #planing {
-    margin: 0em 0em;
-    background-position: bottom;
-    background-image: url(../img/planing.png);
-    display: block;
-    height: 100vh;
-}
 
+    display: block;
+    /* height: 100vh; */
+}
+#picturePlaning {
+  margin: 0em 0em;
+    background-image: url(../img/planing.png);
+  display: block;
+  height: 100vh;
+}
 /*
  * the control section
 */
 #control {
-    margin: 0em 0em;
-    background-position: bottom;
-    background-image: url(../img/control.png);
-    display: block;
-    height: 100vh;
-}
 
+    display: block;
+    /* height: 100vh; */
+}
+#pictureControl {
+  margin: 0em 0em;
+    background-image: url(../img/control.png);
+  display: block;
+  height: 100vh;
+}
 /*
  * the analyze section
 */
 #analyze {
-    margin: 0em 0em;
-    background-position: bottom;
-    background-image: url(../img/analyse.png);
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
+}
+#analyzePicture {
+    margin: 0em 0em;
+
+    background-image: url(../img/analyze.png);
+    display: block;
+
+ height: 100vh;
 }
 
+/*
+ * the software section
+*/
+#software {
+
+}
+.symbol {
+margin:10px;
+
+  display: block;
+}
+.symbol > div {
+
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background-color:#f0f;
+}
+#softwarePicture {
+    margin: 0em 0em;
+    background-image: url(../img/software.png);
+    display: block;
+ height: 100vh;
+}
 
 /*
  * the beta section
 */
-#beta {
+#orderbeta {
     margin: 0em 0em;
-    background-position: bottom;
     background-image: url();
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 
@@ -182,7 +259,7 @@ text-decoration: none;
     background-position: bottom;
     background-image: url();
     display: block;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .btn-invite {
