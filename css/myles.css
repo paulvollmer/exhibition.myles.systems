@@ -1,22 +1,18 @@
 /**
  * Copyright 2016 (c) myles.systems, all rights reserved
  */
-
 html body {
-  background-color: black;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  color: #777;
   overflow-x: hidden;
+  color: #777;
+  background-color: black;
 }
-
-
 /*
  * the main class style
 */
-
 .container-fluid {
-  padding: 0em;
+  padding: 0;
 }
 
 .wp {
@@ -25,29 +21,29 @@ html body {
 }
 
 .row {
+  padding: 5.5em 16em;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 5.5em 16em;
 }
 
 .hi {
-  opacity: 0;
   -webkit-transition: opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
   -ms-transition: opacity 1.5s ease-in;
   -o-transition: opacity 1.5s ease-in;
   transition: opacity 1.5s ease-in;
+  opacity: 0;
 }
 
 .leftHeadline {
   float: left;
   margin-left: 4em;
-  opacity: 0;
   -webkit-transition: opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
   -ms-transition: opacity 1.5s ease-in;
   -o-transition: opacity 1.5s ease-in;
   transition: opacity 1.5s ease-in;
+  opacity: 0;
 }
 
 h1 {
@@ -57,13 +53,14 @@ h1 {
 
 h3 {
   font-style: italic;
-  color: #fff;
   line-height: 1.5em;
   /* padding: 2em 0em; */
-  margin: 2em 0em;
+  margin: 2em 0;
+  color: #fff;
 }
 
-h1>b, p>b {
+h1 > b,
+p > b {
   color: #fff;
 }
 
@@ -71,67 +68,62 @@ p {
   font-size: 1em;
   font-weight: 600;
 }
-
-
 /*
  * the main link style
 */
-
-a, a:hover {
+a,
+a:hover {
   text-decoration: none;
 }
 
 a:hover {
   color: red;
 }
-
-
 /*
  * the navigation bar
 */
-
 .nav {
-  z-index: 5000;
-  -webkit-transition: height 0.5s ease-in;
-  -moz-transition: height 0.5s ease-in;
-  -ms-transition: height 0.5s ease-in;
-  -o-transition: height 0.5s ease-in;
-  transition: height 0.5s ease-in;
-  position: fixed;
   font-size: 16px;
+  position: fixed;
+  z-index: 5000;
   top: 0;
   left: 0;
-  height: 5em;
-  width: 100%;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 5em;
+  -webkit-transition: height 0.5s ease-in;
   -webkit-transition: background-color 0.5s ease-in;
+  -moz-transition: height 0.5s ease-in;
   -moz-transition: background-color 0.5s ease-in;
+  -ms-transition: height 0.5s ease-in;
   -ms-transition: background-color 0.5s ease-in;
+  -o-transition: height 0.5s ease-in;
   -o-transition: background-color 0.5s ease-in;
+  transition: height 0.5s ease-in;
   transition: background-color 0.5s ease-in;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .logo {
   display: block;
-  height: 5em;
-  width: 5em;
   float: left;
-  background-image: url(../img/logo/Myles_Logo_v1.svg);
-  background-position: center;
-  background-color: #000;
-  background-size: contain;
+  width: 5em;
+  height: 5em;
   -webkit-transition: height 0.5s ease-in;
   -moz-transition: height 0.5s ease-in;
   -ms-transition: height 0.5s ease-in;
   -o-transition: height 0.5s ease-in;
   transition: height 0.5s ease-in;
+  background-color: #000;
+  background-image: url("../img/logo/Myles_Logo_v1.svg");
+  background-position: center;
+  background-size: contain;
 }
 
 .nav span {
-  position: absolute;
   /* margin-top: 20px; */
   font-size: 1.5em;
+  position: absolute;
   padding: 1em;
   -webkit-transition: padding 0.5s ease-in;
   -moz-transition: padding 0.5s ease-in;
@@ -141,15 +133,15 @@ a:hover {
 }
 
 .nav ul {
-  overflow: hidden;
   float: right;
+  overflow: hidden;
   text-decoration: none;
 }
 
 .nav li {
-  padding: 2em 2em;
   font-size: 1em;
   display: inline-block;
+  padding: 2em;
   -webkit-transition: padding 0.5s ease-in;
   -moz-transition: padding 0.5s ease-in;
   -ms-transition: padding 0.5s ease-in;
@@ -159,7 +151,7 @@ a:hover {
 
 .smaller {
   height: 4em;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .nav.smaller div.logo {
@@ -173,54 +165,45 @@ a:hover {
 .nav.smaller ul li {
   padding: 1.3em 2em;
 }
-
-
 /*
  * the intro section
 */
-
 #intro {
-  margin: 0em 0em;
-  padding: 0em 16em;
-  background-image: url(../img/intro.png);
   height: 100vh;
+  margin: 0;
+  padding: 0 16em;
   background-color: #dadada;
+  background-image: url("../img/intro.png");
 }
 
 #intro p {
-  margin: 8em 0em;
-  float: right;
-  font-weight: 400;
   font-size: 2.5em;
+  font-weight: 400;
+  float: right;
+  margin: 8em 0;
 }
-
-
 /*
  * the what section
 */
-
 #what {
-  margin: 0em 0em;
-  padding-top: 10em;
-  background-position: bottom;
-  background-image: url(../img/intro.png);
   display: block;
   height: 100vh;
+  margin: 0;
+  padding-top: 10em;
+  background-image: url("../img/intro.png");
+  background-position: bottom;
 }
 
 #pictureWhat {
-  margin: 0em 0em;
-  padding: 0em 16em;
-  background-image: url(../img/what.png);
   display: block;
   height: 100vh;
+  margin: 0;
+  padding: 0 16em;
+  background-image: url("../img/what.png");
 }
-
-
 /*
  * the os section
 */
-
 #os {
   display: block;
   /* height: 80vh; */
@@ -229,76 +212,62 @@ a:hover {
 }
 
 #pictureOs {
-  background-image: url(../img/os.png);
   display: block;
   height: 100vh;
+  background-image: url("../img/os.png");
 }
-
-
 /*
  * the planing section
 */
-
 #planing {
   display: block;
   /* height: 100vh; */
 }
 
 #picturePlaning {
-  margin: 0em 0em;
-  background-image: url(../img/planing.png);
   display: block;
   height: 100vh;
+  margin: 0;
+  background-image: url("../img/planing.png");
 }
-
-
 /*
  * the control section
 */
-
 #control {
   display: block;
   /* height: 100vh; */
 }
 
 #pictureControl {
-  margin: 0em 0em;
-  background-image: url(../img/control.png);
   display: block;
   height: 100vh;
+  margin: 0;
+  background-image: url("../img/control.png");
 }
-
-
 /*
  * the analyze section
 */
-
 #analyze {
   display: block;
   /* height: 100vh; */
 }
 
 #analyzePicture {
-  margin: 0em 0em;
-  background-image: url(../img/analyze.png);
   display: block;
   height: 100vh;
+  margin: 0;
+  background-image: url("../img/analyze.png");
 }
-
-
 /*
  * the software section
 */
-
-#software {}
-
 .subhead {
-  opacity: 0;
   -webkit-transition: opacity 0.5s ease-in;
   -moz-transition: opacity 0.5s ease-in;
   -ms-transition: opacity 0.5s ease-in;
   -o-transition: opacity 0.5s ease-in;
   transition: opacity 0.5s ease-in;
+  opacity: 0;
 }
 
 .show {
@@ -306,47 +275,27 @@ a:hover {
 }
 
 .symbol {
-  margin: 10px;
   display: block;
+  margin: 10px;
 }
 
-.symbol>div {
-  margin: 0 auto;
+.symbol > div {
   width: 64px;
   height: 64px;
+  margin: 0 auto;
   background-color: #f0f;
 }
 
 #softwarePicture {
-  margin: 0em 0em;
-  background-image: url(../img/software.png);
   display: block;
   height: 100vh;
+  margin: 0;
+  background-image: url("../img/software.png");
 }
-
-
 /*
  * the beta section
 */
-
 #orderbeta {
-  margin: 0em 0em;
-  background-image: url();
   display: block;
-  /* height: 100vh; */
+  margin: 0;
 }
-
-
-/*
- * the footer section
-*/
-
-#footer {
-  margin: 0em 0em;
-  background-position: bottom;
-  background-image: url();
-  display: block;
-  /* height: 100vh; */
-}
-
-.btn-invite {}
