@@ -89,12 +89,12 @@ a:hover {
 */
 
 .nav {
-
-  -webkit-transition: height 2s ease-in;
-  -moz-transition: height 2s ease-in;
-  -ms-transition: height 2s ease-in;
-  -o-transition: height 2s ease-in;
-  transition: height 2s ease-in;
+  z-index:5000;
+  -webkit-transition: height 1s ease-in;
+  -moz-transition: height 1s ease-in;
+  -ms-transition: height 1s ease-in;
+  -o-transition: height 1s ease-in;
+  transition: height 1s ease-in;
     position: fixed;
     font-size: 16px;
     top: 0;
@@ -102,12 +102,10 @@ a:hover {
     height: 5em;
     width: 100%;
     display: inline-block;
-    background-color: rgba(255, 0, 0, 0.35);
+    background-color: rgba(0, 0, 0, 0.5);
 }
-.smaller {
-  height: 4em;
 
-}
+
 .logo {
     display:block;
     height: 5em;
@@ -117,25 +115,59 @@ a:hover {
     background-position:center;
     background-color: #000;
     background-size: contain;
+    -webkit-transition: height 1s ease-in;
+    -moz-transition: height 1s ease-in;
+    -ms-transition: height 1s ease-in;
+    -o-transition: height 1s ease-in;
+    transition: height 1s ease-in;
+
 }
 
-#nav span {
+.nav span {
     position: absolute;
     /* margin-top: 20px; */
     font-size: 1.5em;
     padding: 1em;
+    -webkit-transition: padding 1s ease-in;
+    -moz-transition: padding 1s ease-in;
+    -ms-transition: padding 1s ease-in;
+    -o-transition: padding 1s ease-in;
+    transition: padding 1s ease-in;
 }
 
-#nav ul {
+.nav ul {
     overflow: hidden;
     float: right;
     text-decoration: none;
 }
 
-#nav li {
+.nav li {
     padding: 2em 2em;
     font-size: 1em;
     display: inline-block;
+    -webkit-transition: padding 1s ease-in;
+    -moz-transition: padding 1s ease-in;
+    -ms-transition: padding 1s ease-in;
+    -o-transition: padding 1s ease-in;
+    transition: padding 1s ease-in;
+}
+
+
+.smaller {
+  height: 4em;
+
+}
+
+.nav.smaller div.logo {
+  height: 4em;
+}
+
+.nav.smaller span {
+  padding: 0.6em;
+}
+
+.nav.smaller ul li {
+  padding: 1.3em 2em;
 }
 
 
@@ -258,11 +290,11 @@ a:hover {
 
 .subhead {
     opacity: 0;
-    -webkit-transition: opacity 2s ease-in;
-    -moz-transition: opacity 2s ease-in;
-    -ms-transition: opacity 2s ease-in;
-    -o-transition: opacity 2s ease-in;
-    transition: opacity 2s ease-in;
+    -webkit-transition: opacity 1s ease-in;
+    -moz-transition: opacity 1s ease-in;
+    -ms-transition: opacity 1s ease-in;
+    -o-transition: opacity 1s ease-in;
+    transition: opacity 1s ease-in;
 }
 
 .show {
