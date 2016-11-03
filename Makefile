@@ -4,7 +4,10 @@
 
 all: test
 
-test: lint-js lint-css lint-manifest
+test: lint-html lint-js lint-css lint-manifest
+
+lint-html:
+	./node_modules/html5-lint/html5check.py -h index.html
 
 lint-js:
 	jshint js/myles.js
