@@ -82,14 +82,12 @@ img {
 
 }
 
-<<<<<<< HEAD ======= .symbolauswert {}
-
 img {
   width: 100%;
   height: 100%;
 }
 
->  >  >  >  >  >  > c9ba14e7e12168d699de1f2df6265f00ca5185b6 #btn-social-facebook {
+#btn-social-facebook {
   background-image: url("../img/facebook.svg");
   background-size: 1em;
   background-repeat: no-repeat;
