@@ -6,8 +6,56 @@ html body {
   font-size: 16px;
   overflow-x: hidden;
   color: #777;
-  background-color: black;
+  background-color: #100f0f;
+  line-height: 1.65em;
 }
+
+
+.btn-default{
+  border: 1px solid darkgray;
+  background-color: black;
+  color: white;
+  padding: 15px 90px 23px;
+  border-radius: 56px;
+  height: 56px;
+  text-align: center;
+
+}
+
+.btn-default-small{
+  border: 1px solid darkgrey;
+  background-color: black;
+  color: white;
+  border-radius: 56px;
+  text-align: center;
+  margin:  0px 7px;
+  height: 28px;
+    width:  28px;
+  text-align: center;
+
+}
+
+#btn-social-facebook{
+    background-image: url("../img/facebook.svg");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btn-social-twitter{
+    background-image: url("../img/twitter.svg");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btn-social-github{
+    background-image: url("../img/github.svg");
+    background-size: 1em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 /*
  * the main class style
@@ -50,6 +98,12 @@ html body {
 h1 {
   font-style: italic;
   line-height: 1.75em;
+}
+
+h2 {
+  font-style: italic;
+  line-height: 1.75em;
+  color: white;
 }
 
 h3 {
@@ -104,7 +158,7 @@ a:hover {
   -o-transition: background-color 0.5s ease-in;
   transition: height 0.5s ease-in;
   transition: background-color 0.5s ease-in;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: none;
 }
 
 .logo {
@@ -154,7 +208,7 @@ a:hover {
 
 .smaller {
   height: 4em;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: none;
 }
 
 .nav.smaller div.logo {
@@ -184,7 +238,8 @@ a:hover {
   font-size: 2.5em;
   font-weight: 400;
   float: right;
-  margin: 8em 0;
+  margin: 45vh 0;
+  letter-spacing: 0.05em;
 }
 
 /*
@@ -194,14 +249,14 @@ a:hover {
   display: block;
   height: 100vh;
   margin: 0;
-  padding-top: 10em;
+  padding-top: 35vh;
   background-image: url("../img/intro.png");
   background-position: bottom;
 }
 
 #pictureWhat {
   display: block;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
   padding: 0 16em;
   background-image: url("../img/what.png");
@@ -219,7 +274,7 @@ a:hover {
 
 #pictureOs {
   display: block;
-  height: 100vh;
+  height: 90vh;
   background-image: url("../img/os.png");
 }
 
@@ -228,14 +283,18 @@ a:hover {
  */
 #planing {
   display: block;
-  /* height: 100vh; */
+  /* height: 90vh; */
 }
 
 #picturePlaning {
   display: block;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
-  background-image: url("../img/planing.png");
+  background-image: url("../img/grid.svg");
+  background-repeat: repeat;
+  background-size: 40px;
+  border-top: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
 }
 
 /*
@@ -243,14 +302,18 @@ a:hover {
  */
 #control {
   display: block;
-  /* height: 100vh; */
+  /* height: 90vh; */
 }
 
 #pictureControl {
   display: block;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
-  background-image: url("../img/control.png");
+  background-image: url("../img/grid.svg");
+  background-repeat: repeat;
+  background-size: 40px;
+  border-top: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
 }
 
 /*
@@ -258,14 +321,18 @@ a:hover {
  */
 #analyze {
   display: block;
-  /* height: 100vh; */
+  /* height: 90vh; */
 }
 
 #analyzePicture {
   display: block;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
-  background-image: url("../img/analyze.png");
+  background-image: url("../img/grid.svg");
+  background-repeat: repeat;
+  background-size: 40px;
+  border-top: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
 }
 
 /*
@@ -296,11 +363,35 @@ a:hover {
   background-color: #f0f;
 }
 
+.video-container{
+    display: block;
+    position: relative;
+}
+
+#video{
+  width: 100vh;
+  margin: 0px;
+}
+
 #softwarePicture {
   display: block;
-  height: 100vh;
+  height: 90vh;
   margin: 0;
-  background-image: url("../img/software.png");
+  background-image: url("../img/software.svg");
+  border-top: 1px solid #2d2d2d;
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.picture {
+background-color: none;
+text-align: center;
+margin: 0 auto 0 auto;;
+vertical-align: middle;
+height: auto;
+}
+
+.col-md-3 {
+    margin-bottom: 56px;
 }
 
 /*
@@ -309,4 +400,5 @@ a:hover {
 #orderbeta {
   display: block;
   margin: 0;
+  float: left;
 }
