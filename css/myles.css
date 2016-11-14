@@ -430,9 +430,9 @@ a:hover {
   display: block;
   /* height: 90vh; */
   margin: 0;
-  background-image: url("../img/software.svg");
-  border-top: 1px solid #2d2d2d;
-  border-bottom: 1px solid #2d2d2d;
+  background-image: url("../img/grid.svg");
+  background-repeat: repeat;
+  background-size: 40px;
 }
 
 .picture {
