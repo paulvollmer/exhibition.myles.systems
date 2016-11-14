@@ -8,6 +8,53 @@ html body {
   background-color: #100f0f;
   line-height: 1.65em;
 }
+
+h1 {
+  font-size: 2em;
+  font-style: italic;
+  line-height: 2em;
+
+}
+
+h2 {
+  font-size: 1.75em;
+  font-style: italic;
+  line-height: 1.75em;
+  color: white;
+
+}
+
+h3 {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.5em;
+  margin: 2em 0;
+  color: #fff;
+}
+
+h4 {
+  font-size: 1.25em;
+  font-weight: 600;
+  line-height: 1.25em;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 > b,
+p > b {
+  color: #fff;
+  line-height: 1.5em;
+}
+
+p {
+  font-size: 1em;
+  font-weight: 600;
+}
+
 /*css over 800px width*/
 @media (min-width: 800px) {
   .row {
@@ -26,36 +73,13 @@ html body {
     padding: 5.5em 5em;
     background-repeat: no-repeat;
     background-size: cover;
+    /* border: 10px; */
   }
 
   body {
     font-size: 14px;
 
   }
-}
-
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.75em;
-}
-
-h3 {
-  font-size: 1.5em;
-}
-
-.h4,
-h4 {
-  font-size: 1.25em;
-  font-weight: 600;
-  font-size: 0.9em;
-}
-
-img {
-  width: 100%;
-  height: 100%;
 }
 
 .btn-default {
@@ -80,11 +104,6 @@ img {
   width: 28px;
   text-align: center;
 
-}
-
-img {
-  width: 100%;
-  height: 100%;
 }
 
 #btn-social-facebook {
@@ -138,36 +157,6 @@ img {
   -o-transition: opacity 1.5s ease-in;
   transition: opacity 1.5s ease-in;
   opacity: 0;
-}
-
-h1 {
-  font-style: italic;
-  line-height: 1.75em;
-}
-
-h2 {
-  font-style: italic;
-  line-height: 1.75em;
-  color: white;
-}
-
-h3 {
-  font-style: italic;
-  line-height: 1.5em;
-  /* padding: 2em 0em; */
-  margin: 2em 0;
-  color: #fff;
-}
-
-h1 > b,
-p > b {
-  color: #fff;
-  line-height: 1.5em;
-}
-
-p {
-  font-size: 1em;
-  font-weight: 600;
 }
 
 /*
@@ -404,7 +393,8 @@ a:hover {
 
 .symbol {
   display: block;
-  margin: 10px;
+  padding: 0 10px;
+  background-color: red;
 }
 
 .symbol > div {
@@ -441,6 +431,14 @@ a:hover {
   height: auto;
 }
 
+.mylesfnkt {
+  /*border: 14px #dadada;*/
+
+  margin-bottom: 20px;
+  /* display: block; */
+}
+
+.mylesfnkt > span {}
 /*
  * the beta section
  */
