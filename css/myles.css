@@ -10,8 +10,7 @@ html body {
   line-height: 1.65em;
 }
 
-
-.btn-default{
+.btn-default {
   border: 1px solid darkgray;
   background-color: black;
   color: white;
@@ -22,40 +21,44 @@ html body {
 
 }
 
-.btn-default-small{
+.btn-default-small {
   border: 1px solid darkgrey;
   background-color: black;
   color: white;
   border-radius: 56px;
   text-align: center;
-  margin:  0px 7px;
+  margin: 0 7px;
   height: 28px;
-    width:  28px;
+  width: 28px;
   text-align: center;
 
 }
 
-#btn-social-facebook{
-    background-image: url("../img/facebook.svg");
-    background-size: 1em;
-    background-repeat: no-repeat;
-    background-position: center;
+img {
+  width: 100%;
+  height: 100%;
 }
 
-#btn-social-twitter{
-    background-image: url("../img/twitter.svg");
-    background-size: 1em;
-    background-repeat: no-repeat;
-    background-position: center;
+#btn-social-facebook {
+  background-image: url("../img/facebook.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-#btn-social-github{
-    background-image: url("../img/github.svg");
-    background-size: 1em;
-    background-repeat: no-repeat;
-    background-position: center;
+#btn-social-twitter {
+  background-image: url("../img/twitter.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+#btn-social-github {
+  background-image: url("../img/github.svg");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 /*
  * the main class style
@@ -86,7 +89,7 @@ html body {
 
 .leftHeadline {
   float: left;
-  margin-left: 4em;
+  /*margin-left: 4em;*/
   -webkit-transition: opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
   -ms-transition: opacity 1.5s ease-in;
@@ -363,14 +366,14 @@ a:hover {
   background-color: #f0f;
 }
 
-.video-container{
-    display: block;
-    position: relative;
+.video-container {
+  display: block;
+  position: relative;
 }
 
-#video{
+#video {
   width: 100vh;
-  margin: 0px;
+  margin: 0;
 }
 
 #softwarePicture {
@@ -383,15 +386,15 @@ a:hover {
 }
 
 .picture {
-background-color: none;
-text-align: center;
-margin: 0 auto 0 auto;;
-vertical-align: middle;
-height: auto;
+  background-color: none;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  height: auto;
 }
 
 .col-md-3 {
-    margin-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 /*
