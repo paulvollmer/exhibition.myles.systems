@@ -3,11 +3,52 @@
  */
 html body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
   overflow-x: hidden;
   color: #777;
   background-color: #100f0f;
   line-height: 1.65em;
+}
+/*css over 800px width*/
+@media (min-width: 800px) {
+  .row {
+    padding: 5.5em 15em;
+  }
+
+  body {
+    font-size: 18px;
+
+  }
+}
+
+/*css under 800px width*/
+@media (max-width: 799px) {
+  .row {
+    padding: 5.5em 5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body {
+    font-size: 14px;
+
+  }
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+img {
+  width: 100%;
+  height: 100%;
 }
 
 .btn-default {
@@ -32,11 +73,6 @@ html body {
   width: 28px;
   text-align: center;
 
-}
-
-img {
-  width: 100%;
-  height: 100%;
 }
 
 #btn-social-facebook {
@@ -72,12 +108,6 @@ img {
   margin-top: -500px;
 }
 
-.row {
-  padding: 5.5em 16em;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .hi {
   -webkit-transition: opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
@@ -88,7 +118,7 @@ img {
 }
 
 .leftHeadline {
-  float: left;
+  /*float: left;*/
   /*margin-left: 4em;*/
   -webkit-transition: opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
@@ -120,6 +150,7 @@ h3 {
 h1 > b,
 p > b {
   color: #fff;
+  line-height: 1.5em;
 }
 
 p {
@@ -291,7 +322,7 @@ a:hover {
 
 #picturePlaning {
   display: block;
-  height: 90vh;
+  /* height: 90vh; */
   margin: 0;
   background-image: url("../img/grid.svg");
   background-repeat: repeat;
@@ -310,7 +341,7 @@ a:hover {
 
 #pictureControl {
   display: block;
-  height: 90vh;
+  /* height: 90vh; */
   margin: 0;
   background-image: url("../img/grid.svg");
   background-repeat: repeat;
@@ -329,7 +360,7 @@ a:hover {
 
 #analyzePicture {
   display: block;
-  height: 90vh;
+  /* height: 90vh; */
   margin: 0;
   background-image: url("../img/grid.svg");
   background-repeat: repeat;
@@ -378,7 +409,7 @@ a:hover {
 
 #softwarePicture {
   display: block;
-  height: 90vh;
+  /* height: 90vh; */
   margin: 0;
   background-image: url("../img/software.svg");
   border-top: 1px solid #2d2d2d;
@@ -392,10 +423,10 @@ a:hover {
   vertical-align: middle;
   height: auto;
 }
-
+/*
 .col-md-3 {
   margin-bottom: 56px;
-}
+}*/
 
 /*
  * the beta section
@@ -403,5 +434,6 @@ a:hover {
 #orderbeta {
   display: block;
   margin: 0;
-  float: left;
+  text-align: center;
+  /*float: left;*/
 }
