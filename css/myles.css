@@ -33,10 +33,21 @@ h3 {
 }
 
 h4 {
-  font-size: 1.25em;
-  font-weight: 600;
+
   line-height: 1.25em;
   text-align: left;
+  font-size: 1em;
+   font-weight: 600;
+   padding-bottom: 1em;
+}
+
+h5 {
+
+  line-height: 1.25em;
+  text-align: left;
+  font-size: 1em;
+  font-weight: 600;
+  padding-bottom: 1em;
 }
 
 img {
@@ -239,6 +250,32 @@ a:hover {
   -ms-transition: padding 0.5s ease-in;
   -o-transition: padding 0.5s ease-in;
   transition: padding 0.5s ease-in;
+}
+
+ol {
+   background: #ff9999;
+   padding: 20px;
+   list-style: none
+}
+
+ul {
+   background: ;
+   padding: 20px;
+   list-style: none
+   display: block;
+}
+
+ol li {
+   background: #ffe5e5;
+   padding: 5px;
+   margin-left: 35px;
+   list-style: none
+}
+
+ul li {
+   background: black;
+   margin: 5px;
+   list-style: none
 }
 
 .smaller {
