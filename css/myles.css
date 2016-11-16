@@ -442,6 +442,7 @@ ul li {
   height: 64px;
   margin: 0 auto;
   background-color: #f0f;
+  float: left;
 }
 
 .video-container {
