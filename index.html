@@ -57,6 +57,30 @@
   <link href="css/myles.css" rel="stylesheet">
   <!-- GoogleFonts-Api OPEN Sans -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600i,700,700i,800" rel="stylesheet">
+
+  <script type="text/javascript"> <!--
+    function UnCryptMailto( s )
+    {
+        var n = 0;
+        var r = "";
+        for( var i = 0; i < s.length; i++)
+        {
+            n = s.charCodeAt( i );
+            if( n >= 8364 )
+            {
+                n = 128;
+            }
+            r += String.fromCharCode( n - 1 );
+        }
+        return r;
+    }
+
+    function linkTo_UnCryptMailto( s )
+    {
+        location.href=UnCryptMailto( s );
+    }
+    // --> </script>
+
 </head>
 
 
@@ -82,7 +106,8 @@
         <p>
           WHAT IS MYLES?
         </p>
-        <h1>&mdash;<br />Software-Lösung<br />zur <b>Planung</b>, <b>Steuerung</b> <br> und <b>Analyse</b> digitaler Ausstellungen.</h1>
+        <h1>&mdash;<br />Software-Lösung<br />zur <b>
+        <a href="#planung">Planung</a></b>, <b><a href="#steuerung">Steuerung</a></b> <br> und <b><a href="#analyse">Analyse</a></b> digitaler Ausstellungen.</h1>
       </div>
 
     </div>
@@ -117,15 +142,17 @@
     <div class="wp" id="wp3"></div>
     <div class="row" id="picturePlaning">
       <div class="picture">
-        <img src="img/screen.gif" alt="screendesign">
+        <img src="img/software.gif" alt="screendesign">
       </div>
     </div>
     <div class="row" id="planing">
       <div class="subhead col-md-12" id="planingHead">
-        <h3>Planung und Visualisierung – Digitaler Ausstellungen</h3>
+        <h3 id="planung">Planung und Visualisierung – Digitaler Ausstellungen</h3>
+
       </div>
       <div>
         <div class="col-md-6">
+
           <span>
                 Um digitale Ausstellungen planen und betreiben zu können,
                 müssen alle Beteiligten optimal zusammen arbeiten. Um das so effektiv wie möglich
@@ -133,13 +160,15 @@
                 Auf dieser Karte platzieren Sie Objekte wie z.B. Exponate, Möbel, Hörstationen und einen Grundriss.
                 Mit Hilfe Ihrer Projekt-Karte formulieren und kommunizieren Sie Ihre digitalen Ideen und Entwürfe maßstabsgerecht mit anderen Beteiligten.
               </span>
+
         </div>
         <div class="col-md-6">
           <ul>
-            <li><img src="img/myles_icons_myles_icon_gui_null.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp;Null-Objekt</li>
-            <li><img src="img/myles_icons_myles_icon_gui_exponat.svg" style="width: 56px;"alt="Exponat" />&nbsp;&nbsp;Exponat</li>
-            <li><img src="img/myles_icons_myles_icon_gui_sound.svg" style="width: 56px;"alt="Hörstation" />&nbsp;&nbsp;Hörstation</li>
-            <li><img src="img/myles_icons_myles_icon_gui_display.svg" style="width: 56px;"alt="Display" />&nbsp;&nbsp;Display</li>
+
+            <li><img src="img/icons/myles_icons_myles_icon_gui_null.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp;Null-Objekt</li>
+            <li><img src="img/icons/myles_icons_myles_icon_gui_exponat.svg" style="width: 56px;"alt="Exponat" />&nbsp;&nbsp;Exponat</li>
+            <li><img src="img/icons/myles_icons_myles_icon_gui_sound.svg" style="width: 56px;"alt="Hörstation" />&nbsp;&nbsp;Hörstation</li>
+            <li><img src="img/icons/myles_icons_myles_icon_gui_display.svg" style="width: 56px;"alt="Display" />&nbsp;&nbsp;Display</li>
           </ul>
         </div>
       </div>
@@ -148,14 +177,14 @@
 
     <div class="row" id="pictureControl">
       <div class="picture">
-        <img src="img/planing-picture.png" alt="planing">
+        <img src="img/software.gif" alt="planing">
       </div>
     </div>
 
     <div class="wp" id="wp4"></div>
     <div class="row" id="control">
       <div class="subhead col-md-12" id="controlHead">
-        <h3>Steuerung und Kontrolle - Digitaler Exponate im Raum</h3>
+        <h3 id="steuerung">Steuerung und Kontrolle - Digitaler Exponate im Raum</h3>
       </div>
       <div>
         <div class="col-md-5">
@@ -172,10 +201,10 @@
         </div>
         <div class="col-md-5 col-md-offset-2">
           <ul>
-            <li><img src="img/myles_icons_menu-control.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp; Steuerung</li>
-            <li><img src="img/myles_icons_menu-control-wakeup.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp; Anschalten</li>
-            <li><img src="img/myles_icons_menu-control-shutdown.svg" style="width: 56px;"alt="Exponat" />&nbsp;&nbsp; Ausschalten</li>
-            <li><img src="img/myles_icons_menu-control-reboot.svg" style="width: 56px;"alt="Hörstation" />&nbsp;&nbsp; Neustarten</li>
+            <li><img src="img/icons/myles_icons_menu-control.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp; Steuerung</li>
+            <li><img src="img/icons/myles_icons_menu-control-wakeup.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp; Anschalten</li>
+            <li><img src="img/icons/myles_icons_menu-control-shutdown.svg" style="width: 56px;"alt="Exponat" />&nbsp;&nbsp; Ausschalten</li>
+            <li><img src="img/icons/myles_icons_menu-control-reboot.svg" style="width: 56px;"alt="Hörstation" />&nbsp;&nbsp; Neustarten</li>
 
           </ul>
         </div>
@@ -185,14 +214,14 @@
 
     <div class="row" id="analyzePicture">
       <div class="picture">
-        <img src="img/planing-picture.png" alt="planing">
+        <img src="img/software.gif" alt="planing">
       </div>
       <div class="wp" id="wp5"></div>
     </div>
     <div class="row" id="analyze">
       <div class="subhead col-md-12" id="analyzeHead">
 
-        <h3>Analyse und Auswertungen - digitaler Ausstellungen</h3>
+        <h3 id="analyse">Analyse und Auswertungen - digitaler Ausstellungen</h3>
       </div>
       <div>
         <div class="col-md-5">
@@ -207,9 +236,9 @@
         </div>
         <div class="col-md-5 col-md-offset-2">
           <ul>
-            <li><img src="img/myles_icons_menu-analytics.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp;Analyse</li>
-            <li><img src="img/myles_icons_menu-learning.svg" style="width: 56px;"alt="Exponat" />&nbsp;&nbsp;Messung</li>
-            <li><img src="img/myles_icons_menu-measure.svg" style="width: 56px;"alt="Hörstation" />&nbsp;&nbsp;Lernen</li>
+            <li><img src="img/icons/myles_icons_menu-analytics.svg" style="width: 56px;"alt="Null-Objekt" />&nbsp;&nbsp;Analyse</li>
+            <li><img src="img/icons/myles_icons_menu-learning.svg" style="width: 56px;"alt="Exponat" />&nbsp;&nbsp;Messung</li>
+            <li><img src="img/icons/myles_icons_menu-measure.svg" style="width: 56px;"alt="Hörstation" />&nbsp;&nbsp;Lernen</li>
           </ul>
         </div>
       </div>
@@ -217,13 +246,13 @@
 
     <div class="row" id="softwarePicture">
 
-      <img src="img/software.png" alt="screendesign">
+      <img src="img/software.gif" alt="Analyse und Auswertungen digitaler Ausstellungen">
     </div>
     <div class="row" id="software">
       <div class="mylesfnkt col-md-3">
         <div class="symbol">
           <div id="symbolplan">
-            <img src="img/icon_planen.svg" alt="Planung und Visualisierung">
+            <img src="img/icons/icon_planen.svg" alt="Planung und Visualisierung">
           </div>
         </div>
         <h4>Planung und Visualisierung</h4>
@@ -236,7 +265,7 @@
       <div class="mylesfnkt col-md-3">
         <div class="symbol">
           <div id="symbolstrg">
-            <img src="img/icon_control.svg" alt="Steuerung und Kontrolle">
+            <img src="img/icons/icon_control.svg" alt="Steuerung und Kontrolle">
           </div>
         </div>
         <h4>Steuerung und Kontrolle</h4>
@@ -248,7 +277,7 @@
       <div class="mylesfnkt col-md-3">
         <div class="symbol">
           <div id="symbolverwalt">
-            <img src="img/icon_list.svg" alt="Verwaltung und Überblick">
+            <img src="img/icons/icon_list.svg" alt="Verwaltung und Überblick">
           </div>
         </div>
         <h4>Verwaltung und Überblick</h4>
@@ -260,7 +289,7 @@
       <div class="mylesfnkt col-md-3">
         <div class="symbol">
           <div id="symbolauswert">
-            <img src="img/icon_analytics.svg" alt="Selfhtml">
+            <img src="img/icons/icon_analytics.svg" alt="Selfhtml">
           </div>
         </div>
         <h4>Analyse und Auswertungen</h4>
@@ -283,7 +312,8 @@
         den Möglichkeiten unserer Software-Lösung sind und myles.systems vielleicht
         sogar als Beta-User für ein Projekt testen wollen, würde wir uns sehr freuen
         Sie kennenlernen zu dürfen! Gerne demonstrieren wir Ihnen die Möglichkeiten
-        des myles.systems-Toolkit bei Ihnen vor Ort. Sagen Sie <i>hallo@myles.systems</i>.</span>
+        des myles.systems-Toolkit bei Ihnen vor Ort. Lernen Sie uns kennen – <i>
+        <a href="javascript:linkTo_UnCryptMailto('nbjmup;ibmmpAnzmft/tztufnt');">hallo@myles.systems</a>.
       </div>
     </div>
     <div class="row" id="orderbeta">
