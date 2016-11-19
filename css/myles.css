@@ -9,6 +9,35 @@ html body {
   line-height: 1.65em;
 }
 
+/*
+ * the main link style
+ */
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+   color: white;
+}
+
+/* visited link */
+a:visited {
+   color: white;
+}
+
+/* mouse over link */
+a:hover {
+   color: darkgrey;
+}
+
+/* selected link */
+a:active {
+   color: darkgrey;
+}
+
+
 h1 {
   font-size: 2em;
   font-style: italic;
@@ -34,11 +63,12 @@ h3 {
 
 h4 {
 
-  line-height: 1.25em;
+  line-height: 1.45em;
   text-align: left;
   font-size: 1em;
-   font-weight: 600;
+   font-weight: 400;
    padding-bottom: 1em;
+   color: white;
 }
 
 h5 {
@@ -49,6 +79,15 @@ h5 {
   font-weight: 600;
   padding-bottom: 1em;
 }
+
+h6 {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.5em;
+  margin: 2em;
+  color: #fff;
+}
+
 
 img {
   width: 100%;
@@ -118,21 +157,21 @@ p {
 }
 
 #btn-social-facebook {
-  background-image: url("../img/facebook.svg");
+  background-image: url("../img/icons/facebook.svg");
   background-size: 1em;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #btn-social-twitter {
-  background-image: url("../img/twitter.svg");
+  background-image: url("../img/icons/twitter.svg");
   background-size: 1em;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #btn-social-github {
-  background-image: url("../img/github.svg");
+  background-image: url("../img/icons/github.svg");
   background-size: 1em;
   background-repeat: no-repeat;
   background-position: center;
@@ -170,17 +209,6 @@ p {
   opacity: 0;
 }
 
-/*
- * the main link style
- */
-a,
-a:hover {
-  text-decoration: none;
-}
-
-a:hover {
-  color: red;
-}
 
 /*
  * the navigation bar
@@ -312,6 +340,7 @@ ul li {
   font-size: 2.5em;
   font-weight: 400;
   float: right;
+  line-height: 1.1em;
   margin: 45vh 0;
   letter-spacing: 0.05em;
 }
@@ -427,13 +456,18 @@ ul li {
   opacity: 0;
 }
 
+
+
 .show {
   opacity: 1;
 }
 
+
+
 .symbol {
   display: block;
-  padding: 0 10px 23px;
+  float: left;
+  padding: 0 10px 00px 0px;
   background-color: ;
 }
 
@@ -441,7 +475,7 @@ ul li {
   width: 64px;
   height: 64px;
   margin: 0 auto;
-  background-color: #f0f;
+  background-color: none;
   float: left;
 }
 
@@ -475,7 +509,7 @@ ul li {
 .mylesfnkt {
   /*border: 14px #dadada;*/
 
-  margin-bottom: 20px;
+  margin-bottom: 56px;
   /* display: block; */
 }
 
