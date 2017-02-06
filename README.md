@@ -1,17 +1,12 @@
 ![](preview.png)
 
 
-# myles.systems - design assets v.03
+# myles.systems - ci-website 
 
 #### www.myles.systems
 
 
 ![](https://img.shields.io/badge/status-ready to use!-green.png)
-
-
-
-
-
 
 
 
