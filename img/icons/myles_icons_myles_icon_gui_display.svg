@@ -1,37 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="56px"
-	 height="56px" viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
+<!-- Generator: Adobe Illustrator 20.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 56 56" style="enable-background:new 0 0 56 56;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#00837B;}
-	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
-	.st2{fill:#A48A7B;}
-	.st3{fill:#FFFFFF;}
-	.st4{fill:#BB3F81;}
-	.st5{fill:#242424;}
-	.st6{fill:#363636;}
-	.st7{fill:#DBDBDB;}
-	.st8{fill:#31A9E1;}
-	.st9{display:none;}
-	.st10{display:inline;fill:#DBDBDB;}
+	.st0{fill:#FF8666;}
 </style>
-<g id="Ebene_1">
+<g id="Ebene_1_1_">
 </g>
 <g id="Ebene_5">
 </g>
 <g id="Ebene_2">
-</g>
-<g id="Ebene_3">
-	<rect y="0" class="st4" width="56" height="56"/>
-	<g>
-		<path class="st3" d="M38.4,27.5c-0.7-1.6-1.7-2.8-3.2-4.1c-1.6-1.3-3.2-2.2-5.1-2.6c-2.1-0.5-4.3-0.3-6.3,0.6
-			c-2.3,1-4.1,2.5-5.6,4.7c-0.3,0.4-0.7,1-0.7,1.7v0.3l0.1,0.3c0.7,1.6,1.7,3,3.1,4.2c1.5,1.2,3,2.1,4.6,2.5
-			c0.9,0.2,1.7,0.3,2.6,0.3c1.4,0,2.8-0.3,4.2-0.9c2.3-1,4.1-2.6,5.6-4.7c0.3-0.5,0.7-1,0.7-1.7v-0.2L38.4,27.5z M32.2,28
-			c0,1.1-0.4,2.2-1.2,3c-0.8,0.8-1.9,1.2-3,1.2c0,0,0,0,0,0c-1.1,0-2.2-0.4-3-1.2c-0.8-0.8-1.2-1.8-1.2-3c0-2.4,1.9-4.2,4.3-4.2
-			c0,0,0,0,0,0C30.3,23.8,32.2,25.7,32.2,28z"/>
-		<ellipse class="st3" cx="30.6" cy="25.5" rx="2.1" ry="2.1"/>
-	</g>
 </g>
 <g id="Ebene_4">
 </g>
@@ -39,6 +17,10 @@
 </g>
 <g id="Ebene_6">
 </g>
-<g id="Ebene_8">
+<g>
+	<path class="st0" d="M55,1v54H1V1H55 M56,0H0v56h56V0L56,0z"/>
 </g>
+<path class="st0" d="M28,22.4c-5.6,0-8.4,5.6-8.4,5.6s2.8,5.6,8.4,5.6c5.6,0,8.4-5.6,8.4-5.6S33.6,22.4,28,22.4z M28,30.8
+	c-1.5,0-2.8-1.3-2.8-2.8c0-1.5,1.3-2.8,2.8-2.8c0.3,0,0.6,0.1,0.9,0.2c-0.6,0.2-1,0.7-1,1.3c0,0.8,0.6,1.4,1.4,1.4
+	c0.6,0,1.1-0.4,1.3-1c0.1,0.3,0.2,0.6,0.2,0.9C30.8,29.5,29.5,30.8,28,30.8z"/>
 </svg>
