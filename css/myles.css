@@ -161,10 +161,11 @@ p {
 
 
 #btn-page-jumper {
-  background-image: url("");
-  background-size: 1em;
+  background-image: url("../img/icons/jumper.svg");
+  background-size: 1.45em;
   background-repeat: no-repeat;
   background-position: center;
+  padding-right: 56px;
 }
 
 #btn-social-facebook {
