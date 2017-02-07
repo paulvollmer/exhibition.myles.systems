@@ -156,6 +156,14 @@ p {
 
 }
 
+
+#btn-page-jumper {
+  background-image: url("");
+  background-size: 1em;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #btn-social-facebook {
   background-image: url("../img/icons/facebook.svg");
   background-size: 1em;
