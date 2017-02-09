@@ -343,9 +343,9 @@ ul li {
   /* height: 100vh; */
   margin: 0;
   padding: 0 16em;
-  background-color: #dadada;
+  background-color: black;
   background-image: url("../img/intro.jpg");
-  background-position: right top;
+  background-position: left top;
   background-repeat: no-repeat;
 }
 
@@ -390,8 +390,8 @@ ul li {
   /* height: 100vh; */
   margin: 0;
   padding-top: 35vh;
-  background-image: url("../img/intro.jpg");
-  background-position: bottom;
+  background-image: url("../img/intro2.jpg");
+  background-position: center top;
 }
 
 #pictureOs {
