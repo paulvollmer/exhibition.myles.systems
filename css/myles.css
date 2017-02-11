@@ -42,14 +42,23 @@ a:active {
 
 
 h1 {
-  font-size: 2em;
-  font-style: italic;
-  line-height: 2em;
+  font-size: 1.6em;
+  font-style: normal;
+  line-height: 1.65em;
+
+}
+
+h11 {
+
+  font-style: normal;
+  font-size: 1.2em;
+
+
 
 }
 
 h2 {
-  font-size: 1.75em;
+  font-size: 1.65em;
   font-style: italic;
   line-height: 1.75em;
   color: white;
@@ -57,12 +66,15 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em;
-  font-style: italic;
-  line-height: 1.5em;
+  font-size: 1.4em;
+  font-style: normal;
+  line-height: 1.65em;
   margin: 2em 0;
   color: #fff;
+  letter-spacing: 0.04em;
 }
+
+
 
 h4 {
 
@@ -104,9 +116,12 @@ p > b {
 }
 
 p {
-  font-size: 1em;
+  font-size: 0.85em;
   font-weight: 600;
-}
+  letter-spacing: 0.04em;
+  font-style: normal;
+  }
+
 
 /*css over 800px width*/
 @media (min-width: 800px) {
@@ -115,7 +130,7 @@ p {
   }
 
   body {
-    font-size: 18px;
+    font-size: 16px;
 
   }
 }
@@ -265,14 +280,20 @@ p {
 
 .nav span {
   /* margin-top: 20px; */
-  font-size: 1.5em;
+  font-size: 1.4em;
   position: absolute;
   padding: 1em;
+  letter-spacing: 0.06em;
   -webkit-transition: padding 0.5s ease-in;
   -moz-transition: padding 0.5s ease-in;
   -ms-transition: padding 0.5s ease-in;
   -o-transition: padding 0.5s ease-in;
   transition: padding 0.5s ease-in;
+}
+
+b, strong {
+    font-weight: 700;
+    letter-spacing: 0.07em;
 }
 
 .nav ul {
@@ -521,6 +542,15 @@ ul li {
   background-size: 40px;
 }
 
+#btn-invite{
+  background-color: ;
+  width: 560px;
+  height: 56px;
+
+
+
+}
+
 .picture {
   background-color: none;
   text-align: center;
@@ -544,6 +574,7 @@ ul li {
   /*border: 14px #dadada;*/
 
   margin-bottom: 56px;
+
   /* display: block; */
 }
 
