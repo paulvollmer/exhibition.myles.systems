@@ -499,7 +499,17 @@ ul li {
 
 #video {
   width: 100vh;
-  margin: 0;
+  margin: 0;.picture {
+  background-color: none;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  height: auto;
+}
+
+
+
+
 }
 
 #softwarePicture {
@@ -517,6 +527,17 @@ ul li {
   margin: 0 auto;
   vertical-align: middle;
   height: auto;
+}
+
+.video {
+  background-color: none;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: middle;
+  height: auto;
+  -webkit-box-shadow: 10px 10px 50px black;
+  -moz-box-shadow: 10px 10px 50px black;
+  box-shadow: 10px 10px 70px black;
 }
 
 .mylesfnkt {
