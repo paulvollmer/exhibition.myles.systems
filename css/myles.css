@@ -52,10 +52,10 @@ h11 {
 
   font-style: normal;
   font-size: 1.2em;
-
-
-
 }
+
+
+
 
 h2 {
   font-size: 1.65em;
@@ -154,9 +154,9 @@ p {
   border: 1px solid darkgray;
   background-color: black;
   color: white;
-  padding: 15px 90px 23px;
-  border-radius: 56px;
+  border-radius: px;
   height: 56px;
+  width: 600px;
   text-align: center;
 
 }
