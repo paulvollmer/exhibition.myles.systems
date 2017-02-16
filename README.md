@@ -1,12 +1,17 @@
 ![](preview.png)
 
 
-# myles.systems - ci-website
+# myles.systems - design assets v.03
 
 #### www.myles.systems
 
 
 ![](https://img.shields.io/badge/status-ready to use!-green.png)
+
+
+
+
+
 
 
 
@@ -23,5 +28,8 @@ http://www.cssscript.com/custom-particles-animation-javascript-canvas-particler/
 Video-Background Biblothek:
 https://rishabhp.github.io/bideo.js/
 
-Formular:
-https://www.html5rocks.com/de/tutorials/forms/html5forms/
+
+
+
+
+
