@@ -9,9 +9,6 @@ html body {
   line-height: 1.75em;
 }
 
-
-
-
 /*
  * the main link style
  */
@@ -22,24 +19,23 @@ a:hover {
 
 /* unvisited link */
 a:link {
-   color: white;
+  color: white;
 }
 
 /* visited link */
 a:visited {
-   color: white;
+  color: white;
 }
 
 /* mouse over link */
 a:hover {
-   color: darkgrey;
+  color: darkgrey;
 }
 
 /* selected link */
 a:active {
-   color: darkgrey;
+  color: darkgrey;
 }
-
 
 h1 {
   font-size: 1.6em;
@@ -53,9 +49,6 @@ h11 {
   font-style: normal;
   font-size: 1.2em;
 }
-
-
-
 
 h2 {
   font-size: 1.65em;
@@ -74,16 +67,16 @@ h3 {
   letter-spacing: 0.04em;
 }
 
-
-
 h4 {
-
   line-height: 1.45em;
-  text-align: left;
   font-size: 1em;
-   font-weight: 400;
-   padding-bottom: 1em;
-   color: white;
+  font-weight: 400;
+  /* padding-bottom: 1em; */
+  color: white;
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* display: inline; */
+  word-wrap: normal;
 }
 
 h5 {
@@ -103,7 +96,6 @@ h6 {
   color: #fff;
 }
 
-
 img {
   width: 100%;
   height: 100%;
@@ -120,11 +112,10 @@ p {
   font-weight: 600;
   letter-spacing: 0.04em;
   font-style: normal;
-  }
-
+}
 
 /*css over 800px width*/
-@media (min-width: 800px) {
+@media (min-width: 992px) {
   .row {
     padding: 5.5em 15em;
   }
@@ -133,12 +124,24 @@ p {
     font-size: 16px;
 
   }
+
+  .description {
+    /*background-color: #00f;*/
+    display: inline-block;
+  }
+
+  #footerlabel,
+  #footerlinks {
+    display: block;
+    margin: 20px 0;
+  }
+
 }
 
 /*css under 800px width*/
-@media (max-width: 799px) {
+@media (max-width: 991px) {
   .row {
-    padding: 5.5em 5em;
+    padding: 1.5em 5em;
     background-repeat: no-repeat;
     background-size: cover;
     /* border: 10px; */
@@ -147,6 +150,43 @@ p {
   body {
     font-size: 14px;
 
+  }
+
+  #intro p {
+    white-space: nowrap;
+    text-align: center;
+    margin: 45vh 0;
+    float: none;
+  }
+
+  ul {
+    /* display: inline-flex; */
+    padding: 20px;
+    /* list-style: none; */
+    /* display: block; */
+    text-align: center;
+  }
+
+  li {
+    min-width: 56px;
+    max-width: 96px;
+    display: inline-block;
+  }
+
+  .description {
+    text-align: center;
+    /*background-color: #f0f;*/
+    display: block;
+  }
+
+  #footerlabel,
+  #footerlinks {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .hi {
+    margin-left: 115px;
   }
 }
 
@@ -173,7 +213,6 @@ p {
   text-align: center;
 
 }
-
 
 #btn-page-jumper {
   background-image: url("../img/icons/jumper.svg");
@@ -236,7 +275,6 @@ p {
   opacity: 0;
 }
 
-
 /*
  * the navigation bar
  */
@@ -291,9 +329,10 @@ p {
   transition: padding 0.5s ease-in;
 }
 
-b, strong {
-    font-weight: 700;
-    letter-spacing: 0.07em;
+b,
+strong {
+  font-weight: 700;
+  letter-spacing: 0.07em;
 }
 
 .nav ul {
@@ -314,29 +353,29 @@ b, strong {
 }
 
 ol {
-   background: #ff9999;
-   padding: 20px;
-   list-style: none
+  background: #ff9999;
+  padding: 20px;
+  list-style: none;
 }
 
 ul {
-   background: ;
-   padding: 20px;
-   list-style: none
-   display: block;
+  background:;
+  /*padding: 20px;*/
+  list-style: none;
+  display: block;
 }
 
 ol li {
-   background: #ffe5e5;
-   padding: 5px;
-   margin-left: 35px;
-   list-style: none
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+  list-style: none;
 }
 
 ul li {
-   background: black;
-   margin: 5px;
-   list-style: none
+  background: black;
+  margin: 5px;
+  list-style: none;
 }
 
 .smaller {
@@ -490,19 +529,14 @@ ul li {
   opacity: 0;
 }
 
-
-
 .show {
   opacity: 1;
 }
 
-
-
 .symbol {
-  display: block;
-  float: left;
-  padding: 0 10px 00px 0px;
-  background-color: ;
+  /* display: inline-block; */
+  /* float: left; */
+  padding: 0 10px 0 0;
 }
 
 .symbol > div {
@@ -520,17 +554,15 @@ ul li {
 
 #video {
   width: 100vh;
-  margin: 0;.picture {
+  margin: 0;
+}
+
+.picture {
   background-color: none;
   text-align: center;
   margin: 0 auto;
   vertical-align: middle;
   height: auto;
-}
-
-
-
-
 }
 
 #softwarePicture {
@@ -542,12 +574,10 @@ ul li {
   background-size: 40px;
 }
 
-#btn-invite{
-  background-color: ;
+#btn-invite {
+  background-color:;
   width: 560px;
   height: 56px;
-
-
 
 }
 
@@ -573,7 +603,7 @@ ul li {
 .mylesfnkt {
   /*border: 14px #dadada;*/
 
-  margin-bottom: 56px;
+  margin-bottom: 15px;
 
   /* display: block; */
 }
@@ -587,4 +617,16 @@ ul li {
   margin: 0;
   text-align: center;
   /*float: left;*/
+}
+
+.test {
+  padding: 10px 10px 20px 0;
+  display: inline-block;
+  /* position: f*/
+}
+
+.test > h4 {
+  padding-left: 10px;
+  /*display: inline-block;*/
+  /* position: f
 }
