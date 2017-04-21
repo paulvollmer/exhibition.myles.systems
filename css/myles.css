@@ -126,7 +126,7 @@ p {
   }
 
   .description {
-    /*background-color: #00f;*/
+    padding-left: 8px;
     display: inline-block;
   }
 
@@ -175,7 +175,7 @@ p {
 
   .description {
     text-align: center;
-    /*background-color: #f0f;*/
+    padding-left: none;
     display: block;
   }
 
