@@ -179,15 +179,21 @@ p {
     display: block;
   }
 
-  #footerlabel,
-  #footerlinks {
-    display: block;
-    margin: 10px 0;
+  .mylesfooterlabel {
+    margin: 20px 0;
+  }
+
+  .mylesfooterimpressum {
+    text-align: left !important;
   }
 
   .hi {
     margin-left: 115px;
   }
+}
+
+.mylesfootericons {
+  text-align: right !important;
 }
 
 .btn-default {
