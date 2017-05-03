@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <script src="js/myles.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/noframework.waypoints.min.js"></script>
+</head>
+
+<body>
+
+
+  <div id="wp0"></div>
+  <div class="row" id="form-text">
+    <div class="col-md-offset-4 col-md-4">
+      <h98>Account anfordern:</h98>
+    </div>
+
+    <!-- <form id="myform" onsubmit="get_action(this);" method="post"> -->
+    <form id="myform" action="http://base.joev.de/test.php" method="post">
+      <div class="col-md-offset-4 col-md-4">
+        <label><h20>Name:</h20></label>
+        <input type="text" id="full_name" name="full_name" placeholder="Name " required>
+      </div>
+      <div class="col-md-offset-4 col-md-4 ">
+
+        <label><h20>Institution:</h20</label>
+        <input type="text" id="institution2" name="institution" placeholder="Institution">
+      </div>
+      <div class="col-md-offset-4  col-md-4">
+
+        <label><h20>Email:</h20></label>
+        <input type="email" id="email_addr" placeholder="E-Mail" name="email_addr" required>
+      </div>
+      <div class="col-md-offset-4  col-md-4">
+
+        <label><h20>Kommentar</h20></label>
+        <input type="text" id="comment" placeholder="Leave a message" name="comment">
+      </div>
+      <div id="orderbeta">
+        <button class="btn btn-default" id="btn-form" type="submit"><h11>Absenden</h11></button>
+      </div>
+
+    </form>
+  </div>
+
+  <!-- <form>
+    <select name="users" onchange="addCustomer(this.value)">
+  <option value="">Select a person:</option>
+  <option value="1">Peter Griffin</option>
+  <option value="2">Lois Griffin</option>
+  <option value="3">Joseph Swanson</option>
+  <option value="4">Glenn Quagmire</option>
+  </select>
+  </form>
+  <br>
+  <div id="txtHint"><b>Person info will be listed here...</b></div> -->
+
+</body>

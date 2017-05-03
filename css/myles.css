@@ -632,8 +632,18 @@ ul li {
   /* position: f*/
 }
 
-.test > h4 {
-  /*padding-left: 10px;*/
-  /*display: inline-block;*/
-  /* position: f
+/*.test > h4 {
+padding-left: 10px;
+display: inline-block;
+position: f
+}*/
+
+#myform > div {
+  padding: 10px;
+}
+
+#myform {
+  background-color: #262626;
+  border-radius: 15px;
+  padding-bottom: 20px;
 }

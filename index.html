@@ -64,22 +64,6 @@
 
   <!-- Mailcrypt  -->
   <script type="text/javascript">
-    function UnCryptMailto(s) {
-      var n = 0;
-      var r = "";
-      for (var i = 0; i < s.length; i++) {
-        n = s.charCodeAt(i);
-        if (n >= 8364) {
-          n = 128;
-        }
-        r += String.fromCharCode(n - 1);
-      }
-      return r;
-    }
-
-    function linkTo_UnCryptMailto(s) {
-      location.href = UnCryptMailto(s);
-    }
   </script>
   <!-- Mailcrypt Ending -->
 </head>
@@ -366,7 +350,8 @@ Your browser does not support the video tag.
         den Möglichkeiten unserer <i>IoT-Software-Lösung</i> sind und myles.systems als <i>Beta-User</i> für ein Projekt testen wollen, würde wir uns freuen
         Sie kennenlernen zu dürfen! Gerne demonstrieren wir Ihnen die Performance
         des mdularen <i>myles.systems-Toolkit</i> bei Ihnen vor Ort. Melden Sie jetzt einen <i>Beta-Account</i> an und lernen Sie uns kennen –
-        <a href="javascript:linkTo_UnCryptMailto('nbjmup;ibmmpAnzmft/tztufnt');">hallo@myles.systems</a>.
+        <a href="javascript:linkTo_UnCryptMailto('ocknvq<jcnnqBo{ngu0u{uvgou', 2);">eMail-Link</a>.
+        <a href="mailto:hallo@myles.systems">test</a>
       </div>
     </div>
     <!-- <div class="row" id="orderbeta">
@@ -375,6 +360,56 @@ Your browser does not support the video tag.
       </div>
     </div> -->
     <div style="clear:both;">
+    </div>
+    <div class="row" id="form-text">
+      <div class="col-md-offset-4 col-md-4">
+        <h1>Interesse?</h1>
+        Melden Sie sich für weitere Informationen gleich an: <br /><br />
+      </div>
+
+      <!-- <form id="myform" onsubmit="get_action(this);" method="post"> -->
+      <form id="myform" action="http://base.joev.de/test.php" method="post">
+        <div class="col-md-offset-4 col-md-4">
+
+        <div class="col-md-6">
+          <label>Name:</label>
+          </div>
+          <div class="col-md-6">
+          <input type="text" id="full_name" name="full_name" placeholder="Name " required>
+        </div></div>
+        <div class="col-md-offset-4 col-md-4 ">
+          <div class="col-md-6">
+          <label>Institution:</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" id="institution2" name="institution" placeholder="Institution">
+        </div>
+      </div>
+        <div class="col-md-offset-4  col-md-4">
+
+        <div class="col-md-6">
+          <label>Email:</label>
+        </div>
+        <div class="col-md-6">
+          <input type="email" id="email_addr" placeholder="E-Mail" name="email_addr" required>
+        </div>
+      </div>
+
+        <div class="col-md-offset-4  col-md-4">
+
+        <div class="col-md-6">
+          <label>Kommentar</label>
+        </div>
+        <div class="col-md-6">
+          <input type="text" id="comment" placeholder="Leave a message" name="comment">
+        </div>
+      </div>
+    <!-- <div class="col-md-6"> -->
+        <div id="orderbeta">
+          <button class="btn btn-default" id="btn-form" type="submit"><h11>Absenden</h11></button>
+        </div>
+    <!-- </div> -->
+      </form>
     </div>
     <div class="row" id="footer">
       <div class="col-md-4 col-xs-12 mylesfooterlabel">
