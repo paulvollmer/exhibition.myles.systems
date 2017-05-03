@@ -1,40 +1,4 @@
 console.log('myles.js');
-// function get_action(form) {
-//   console.log(form);
-//   // var tmp
-//   // full_name
-//   var full_name = document.getElementById('full_name').value;
-//   var institution = document.getElementById('institution2').value;
-//   var email_addr = document.getElementById('email_addr').value;
-//   var comment = document.getElementById('comment').value;
-//
-//      console.log("we add a customer now,:", tmp);
-//      if (form == "") {
-//        form = document.getElementById("myform").innerHTML = "";
-//          return;
-//      } else {
-//          if (window.XMLHttpRequest) {
-//              // code for IE7+, Firefox, Chrome, Opera, Safari
-//              xmlhttp = new XMLHttpRequest();
-//             //  xmlhttp.setRequestHeader('Access-Control-Allow-Headers', '*');
-//          } else {
-//              // code for IE6, IE5
-//              xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-//          }
-//          xmlhttp.onreadystatechange = function() {
-//              if (this.readyState == 4 && this.status == 200) {
-//                  document.getElementById("myform").innerHTML = this.responseText;
-//              }
-//          };
-//          xmlhttp.open("POST","http://base.joev.de/work/writeToDb.php?q="+form,true);
-//          xmlhttp.send();
-//      }
-//  document.getElementById('myform').action = "http://base.joev.de/writeToDb.php?q="+full_name+institution+email_addr+comment,true;
-//
-//     form.action = form_action;
-// }
-
-
 var waypoint0 = new Waypoint({
     element: document.getElementById('wp0'),
     handler: function() {
@@ -147,31 +111,4 @@ function UnCryptMailto(s, shift) {
 
 function linkTo_UnCryptMailto(s, shift)	{
 	location.href=UnCryptMailto(s, shift);
-}
-
-
-function addCustomer(form) {
-
-
-  console.log("we add a customer now,:", form);
-    if (form == "") {
-        document.getElementById("myform").innerHTML = "";
-        return;
-    } else {
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp = new XMLHttpRequest();
-            xmlhttp.setRequestHeader('Access-Control-Allow-Headers', '*');
-        } else {
-            // code for IE6, IE5
-            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        xmlhttp.onreadystatechange = function() {
-            if (this.readyState == 4 && this.status == 200) {
-                document.getElementById("txtHint").innerHTML = this.responseText;
-            }
-        };
-        xmlhttp.open("GET","http://base.joev.de/work/writeToDb.php?q="+form,true);
-        xmlhttp.send();
-    }
 }
