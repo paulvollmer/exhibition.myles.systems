@@ -17,11 +17,11 @@ MYLES.SYSTEMS – INTERAKTIVE KARTE
 
 Digitale Ausstellungen planen und visualisieren
 
-Um digitale Ausstellungen planen und betreiben zu können, benutzen Sie bei myles.systems an die interaktive Karte Ihres Projekts. Auf Ihrer interaktiven Karte platzieren Sie Ausstellung-Elemente wie Null-Objekte für Grundrisse, Container für Exponate, Hörstationen und Display-Präsentationen. Mit myles.systems verlieren Sie dank interaktiver Karte nie den Überblick über Ihr Projekt und dessen Bestandteile. Sie können Ihre Ideen und Entwürfe mit der interaktiven Karte maßstabsgerecht mit anderen Beteiligten und Abteilungen kommunizieren.
+Um digitale Ausstellungen planen und betreiben zu können, benutzen Sie bei myles.systems die interaktive Karte Ihres Projekts. Auf Ihrer interaktiven Karte platzieren Sie Ausstellung-Elemente wie Null-Objekte für Grundrisse, Container für Exponate, Hörstationen und Display-Präsentationen. Mit myles.systems verlieren Sie dank interaktiver Karte nie den Überblick über Ihr Projekt und dessen Bestandteile. Sie können Ihre Ideen und Entwürfe mit der interaktiven Karte maßstabsgerecht mit anderen Beteiligten und Abteilungen kommunizieren.
 
 Null-Objekt – Grundrisse Null-Objekt
 Exponate – Objekte Exponat
-Digitale Hörstation Hörstation
+Digitale Hörstation – Hörstation
 Digitale Präsentation Display
 
 
@@ -30,7 +30,7 @@ MYLES.SYSTEMS – AUSSTELLUNGSSTEUERUNG
 
 Digitale Exponate fernwarten und steuern
 
-Die Steuerung digitaler Objekte in Ihrer Ausstellung wie z.B. interaktive Display- und Hörstationen benötigt unsere Client-Software. Sobald die Installation der Client-Software auf Ihrem Endgeräte erfolgreich abgeschlossen wurde, erscheint das Gerät im Browser auf Ihrer interaktiven Karte. Sie können Ihre installierten Geräte von dort bequem auf dem Grundriss platzieren, ansteuern und mit Daten versorgen. Vewenden Sie Funktionen wie Gerät(e) ein- und ausschalten, zeitgesteuerte Kommandos, automatisiertes Ausschalten und Einschalten, digitale Inhalte platzieren und ersetzen. Mit myles.systems steuern Sie sämtliche digitalen Ausstellungsobjekte auf einer interaktiven Karte im Netzwerk via Tablet, Smartphone und Computer – vor Ort oder mit Hilfe der Fernwartung über eine SSL-Verschlüsselte Verbindung auch von unterwegs.
+Die Steuerung digitaler Objekte in Ihrer Ausstellung wie z.B. interaktive Display- und Hörstationen benötigt unsere Client-Software. Sobald die Installation der Client-Software auf Ihrem Endgerät erfolgreich abgeschlossen wurde, erscheint das Gerät im Browser auf Ihrer interaktiven Karte. Sie können Ihre installierten Geräte von dort bequem auf dem Grundriss platzieren, ansteuern und mit Daten versorgen. Verwenden Sie Funktionen wie Gerät(e) ein- und ausschalten, zeitgesteuerte Kommandos, automatisiertes Ausschalten und Einschalten, digitale Inhalte platzieren und ersetzen. Mit myles.systems steuern Sie sämtliche digitalen Ausstellungsobjekte auf einer interaktiven Karte im Netzwerk via Tablet, Smartphone und Computer – vor Ort oder mit Hilfe der Fernwartung über eine SSL-Verschlüsselte Verbindung auch von unterwegs.
 
 Digitale Steuerung für Museen und Ausstellungen: Steuerung
 Digitale Exponate anschalten: Anschalten
@@ -42,7 +42,7 @@ MYLES.SYSTEMS – AUSSTELLUNGSTATISTIK
 
 Digitale Ausstellungen analysieren und auswerten
 
-Mit dem myles-Analyse-Modul erhalten digitale Ausstellungen eine Echtzeit-Lösung zur Analyse von Räumen und Interaktionen. Myles.systems hilft Ihnen Ihre digitale Ausstellung besser zu verstehen und aus erhobenen Daten lernen zu können. Sie können Konzepte testen und Erfolge messen. Unser Analytic-Modul ist Ihre Grundlage, um Ihre digitalen Exponate, Ausstellungen und Räume auf Ihre und die Bedürnisse der Besucher anpassen zu können.
+Mit dem myles-Analyse-Modul erhalten digitale Ausstellungen eine Echtzeit-Lösung zur Analyse von Räumen und Interaktionen. Myles.systems hilft Ihnen Ihre digitale Ausstellung besser zu verstehen und aus erhobenen Daten lernen zu können. Sie können Konzepte testen und Erfolge messen. Unser Analytic-Modul ist Ihre Grundlage, um Ihre digitalen Exponate, Ausstellungen und Räume auf Ihre und die Bedürfnisse der Besucher anpassen zu können.
 
 Digitale Ausstellungen und Museen analysieren: Analyse
 Digitale Ausstellungen und Museen messen: Messung
@@ -54,7 +54,7 @@ MYLES.SYSTEMS – MODULARES TOOLKIT:
 
 Planung und Visualisierung
 
-Planen und Visualisieren Sie Ihre digitalen Räume mit allen Objekte und Inhalten, egal ob digital oder analog. Arbeiten Sie gemeinsam an einem Projekt und kommunizieren Sie Ihre Vision maßstabsgerecht anhand einer interaktiven Karte z.B. mit einer anderen Abteilungen. Steuerung und Verwaltung  
+Planen und Visualisieren Sie Ihre digitalen Räume mit allen Objekten und Inhalten, egal ob digital oder analog. Arbeiten Sie gemeinsam an einem Projekt und kommunizieren Sie Ihre Vision maßstabsgerecht anhand einer interaktiven Karte z.B. mit anderen Abteilungen. Steuerung und Verwaltung  
 
 Steuerung und Kontrolle
 
@@ -72,7 +72,7 @@ Sammeln Sie Daten zu Ihrer digitalen Ausstellung in Realtime. Verbessern Sie auf
 MYLES.SYSTEMS – SUCHT:
 
 Wir suchen Museen und Ausstellungen als Beta-Tester!
-Wir sind ein agiles Software-Entwicklungs-Team aus Berlin. Wir schaffen eine IoT-Software-Plattform für Menschen, die digitale Räume, interaktive Ausstellungen und Museen planen und ganzheitlich umsetzen. Falls Sie interessiert an myles.systems und den Möglichkeiten unserer IoT-Software-Lösung sind und myles.systems als Beta-User für ein Projekt testen wollen, würde wir uns freuen Sie kennenlernen zu dürfen! Gerne demonstrieren wir Ihnen die Performance des mdularen myles.systems-Toolkit bei Ihnen vor Ort. Melden Sie jetzt einen Beta-Account an und lernen Sie uns kennen – eMail-Link. test
+Wir sind ein agiles Software-Entwicklungs-Team aus Berlin. Wir schaffen eine IoT-Software-Plattform für Menschen, die digitale Räume, interaktive Ausstellungen und Museen planen und ganzheitlich umsetzen. Falls Sie an myles.systems und den Möglichkeiten unserer IoT-Software-Lösung interessiert sind und myles.systems als Beta-User für ein Projekt testen wollen, freuen wir uns, Sie kennenlernen zu dürfen! Gerne demonstrieren wir Ihnen die Performance des modularen myles.systems-Toolkit bei Ihnen vor Ort. Melden Sie jetzt einen Beta-Account an und lernen Sie uns kennen – eMail-Link. test
 myles.systems - software solution for physical space Impressum      
 
 
