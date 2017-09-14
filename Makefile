@@ -18,7 +18,6 @@ lint-css:
 lint-json:
 	@jsonlint -q manifest.json .stylelintrc
 
-
 fmt: fmt-manifest
 
 fmt-manifest:
@@ -26,11 +25,10 @@ fmt-manifest:
 	rm -f manifest.json
 	mv manifest.json.tmp manifest.json
 
-
 install:
-	npm install -g jshint
-	npm install -g stylelint
+	npm install jshint
+	npm install stylelint
 	npm install stylelint-config-standard
-	stylelint --version
-	npm install -g jsonlint
-	npm install -g htmlhint
+	./node_modules/.bin/stylelint --version
+	npm install jsonlint
+	npm install htmlhint
