@@ -1,14 +1,15 @@
-console.log('myles.js');
+//console.log('myles.js');
+
 var waypoint0 = new Waypoint({
     element: document.getElementById('wp0'),
     handler: function() {
         var tmp = document.getElementById('hi');
         if (tmp.className.match(/(?:^|\s)hi(?!\S)/)) {
             // tmp = tmp.className.replace(/(?:^|\s)leftHeadline(?!\S)/);
-            console.log('remove hidden');
+            //console.log('remove hidden');
             tmp = tmp.className += ' show';
         }
-        console.log('waypoint whas triggered');
+        //console.log('waypoint whas triggered');
     }
 });
 
@@ -18,11 +19,11 @@ var waypoint1 = new Waypoint({
         var tmp = document.getElementById('whatHead');
         if (tmp.className.match(/(?:^|\s)leftHeadline(?!\S)/)) {
             // tmp = tmp.className.replace(/(?:^|\s)leftHeadline(?!\S)/);
-            console.log('remove hidden');
+            //console.log('remove hidden');
             tmp = tmp.className += ' show';
         }
 
-        console.log('waypoint whas triggered');
+        //console.log('waypoint whas triggered');
     }
 });
 
@@ -32,10 +33,10 @@ var waypoint2 = new Waypoint({
         var tmp = document.getElementById('osHead');
         if (tmp.className.match(/(?:^|\s)leftHeadline(?!\S)/)) {
             // tmp = tmp.className.replace(/(?:^|\s)leftHeadline(?!\S)/);
-            console.log('remove hidden');
+            //console.log('remove hidden');
             tmp = tmp.className += ' show';
         }
-        console.log('waypoint whas triggered');
+        //console.log('waypoint whas triggered');
     }
 });
 
@@ -45,10 +46,10 @@ var waypoint2 = new Waypoint({
         var tmp = document.getElementById('planingHead');
         if (tmp.className.match(/(?:^|\s)subhead(?!\S)/)) {
             // tmp = tmp.className.replace(/(?:^|\s)leftHeadline(?!\S)/);
-            console.log('remove hidden');
+            //console.log('remove hidden');
             tmp = tmp.className += ' show';
         }
-        console.log('waypoint whas triggered');
+        //console.log('waypoint whas triggered');
     }
 });
 var waypoint3 = new Waypoint({
@@ -57,10 +58,10 @@ var waypoint3 = new Waypoint({
         var tmp = document.getElementById('controlHead');
         if (tmp.className.match(/(?:^|\s)subhead(?!\S)/)) {
             // tmp = tmp.className.replace(/(?:^|\s)leftHeadline(?!\S)/);
-            console.log('remove hidden');
+            //console.log('remove hidden');
             tmp = tmp.className += ' show';
         }
-        console.log('waypoint whas triggered');
+        //console.log('waypoint whas triggered');
     }
 });
 
@@ -70,10 +71,10 @@ var waypoint4 = new Waypoint({
         var tmp = document.getElementById('analyzeHead');
         if (tmp.className.match(/(?:^|\s)subhead(?!\S)/)) {
             // tmp = tmp.className.replace(/(?:^|\s)leftHeadline(?!\S)/);
-            console.log('remove hidden');
+            //console.log('remove hidden');
             tmp = tmp.className += ' show';
         }
-        console.log('waypoint whas triggered');
+        //console.log('waypoint whas triggered');
     }
 });
 
