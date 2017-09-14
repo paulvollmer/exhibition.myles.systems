@@ -217,6 +217,7 @@ p {
   height: 28px;
   width: 28px;
   text-align: center;
+  margin: 4px;
 
 }
 
@@ -226,6 +227,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 56px;
+
 }
 
 #btn-social-facebook {
