@@ -69,7 +69,7 @@ h3 {
 
 h4 {
   line-height: 1.45em;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 400;
   /* padding-bottom: 1em; */
   color: white;
@@ -217,6 +217,7 @@ p {
   height: 28px;
   width: 28px;
   text-align: center;
+  margin: 4px;
 
 }
 
@@ -226,6 +227,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   padding-right: 56px;
+
 }
 
 #btn-social-facebook {
