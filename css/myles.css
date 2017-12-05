@@ -264,7 +264,7 @@ p {
 }
 
 .hi {
-  -webkit-transition: opacity 1.5s ease-in;
+  -webkit-transition: -webkit-transform opacity 1.5s ease-in;
   -moz-transition: opacity 1.5s ease-in;
   -ms-transition: opacity 1.5s ease-in;
   -o-transition: opacity 1.5s ease-in;
@@ -295,8 +295,8 @@ p {
   display: inline-block;
   width: 100%;
   height: 5em;
-  -webkit-transition: height 0.5s ease-in;
-  -webkit-transition: background-color 0.5s ease-in;
+  -webkit-transition: -webkit-transform height 0.5s ease-in;
+  -webkit-transition: -webkit-transform background-color 0.5s ease-in;
   -moz-transition: height 0.5s ease-in;
   -moz-transition: background-color 0.5s ease-in;
   -ms-transition: height 0.5s ease-in;
@@ -313,7 +313,8 @@ p {
   float: left;
   width: 5em;
   height: 5em;
-  -webkit-transition: height 0.5s ease-in;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  /*-webkit-transition: height 0.5s ease-in;*/
   -moz-transition: height 0.5s ease-in;
   -ms-transition: height 0.5s ease-in;
   -o-transition: height 0.5s ease-in;
